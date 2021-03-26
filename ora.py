@@ -10,11 +10,14 @@ class Kattintgato:
     secturtle = Turtle(shape="turtle")
     minturtle = Turtle(shape="turtle")
     hourturtle = Turtle(shape="turtle")
+
     def writeSec(self):
         self.printToConsole()
         self.secturtle.clear()
         self.secturtle.reset()
-        self.secturtle.forward(30)
+        if self.clk.sec() = 1:
+            self.t.forward(100)
+
 
     def writeMin(self):
         self.minturtle.clear()

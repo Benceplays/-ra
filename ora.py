@@ -7,22 +7,41 @@ class Kattintgato:
     scr = Screen()
     t = Turtle()
     clk = Clock(scr)
+    secturtle1 = Turtle(shape="turtle")
     secturtle = Turtle(shape="turtle")
     minturtle = Turtle(shape="turtle")
     hourturtle = Turtle(shape="turtle")
 
     def writeSec(self):
         self.printToConsole()
-        self.secturtle.clear()
+        self.masodperc1(1)
+        self.masodperc2(10)
+
+    def pozicio(self):
+        self.secturtle1.penup()
+        self.secturtle1.backward(100)
+        self.secturtle1.pendown()
+
+    def masodperc2(self, x):
         self.secturtle.reset()
-        if self.clk.sec() == 1:
+        self.printToConsole()
+        if self.clk.sec() == x:
+            self.secturtle1.left(90)
+            self.secturtle1.forward(100)
+            self.secturtle1.left(120)
+        if self.clk.sec() == x < x + 10:
+            self.secturtle1.clear()
+
+
+    def masodperc1(self, x):
+        self.secturtle.reset()
+        self.printToConsole()
+        if self.clk.sec() == x:
             self.secturtle.left(90)
             self.secturtle.forward(100)
             self.secturtle.left(120)
-            self.secturtle.forward(50)
-            if self.clk.sec() > 1:
-                self.secturtle.clear()
-
+        if self.clk.sec() > x:
+            self.secturtle.clear()
 
     def writeMin(self):
         self.minturtle.clear()
@@ -55,7 +74,7 @@ class Kattintgato:
         self.minturtle.speed(0)
         self.hourturtle._delay(0)
         self.hourturtle.speed(0)
-
+        self.pozicio()
         self.clk.setOnSecondChangeListener(self.writeSec)
         self.clk.setOnMinuteChangeListener(self.writeMin)
         self.clk.setOnHourChangeListener(self.writeHour)

@@ -15,8 +15,13 @@ class Kattintgato:
         self.printToConsole()
         self.secturtle.clear()
         self.secturtle.reset()
-        if self.clk.sec() = 1:
-            self.t.forward(100)
+        if self.clk.sec() == 1:
+            self.secturtle.left(90)
+            self.secturtle.forward(100)
+            self.secturtle.left(120)
+            self.secturtle.forward(50)
+            if self.clk.sec() > 1:
+                self.secturtle.clear()
 
 
     def writeMin(self):

@@ -29,7 +29,7 @@ class Kattintgato:
             self.secturtle1.left(90)
             self.secturtle1.forward(100)
             self.secturtle1.left(120)
-        if self.clk.sec() != x:
+        if self.clk.sec() == x < x + 10:
             self.secturtle1.clear()
 
 

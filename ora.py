@@ -1,10 +1,10 @@
 from turtle import *
 from j_sampleclock import SampleClock
 from j_clock import *
-
+from Numbers import *
 
 class Kattintgato:
-
+    num = Szamok()
     scr = Screen()
     t = Turtle()
     clk = Clock(scr)
@@ -27,22 +27,22 @@ class Kattintgato:
         self.secturtle.reset()
         self.printToConsole()
         if self.clk.sec() == x:
-            self.secturtle1.left(90)
-            self.secturtle1.forward(100)
-            self.secturtle1.left(120)
-        if self.clk.sec() == x < x + 10:
+            self.num.egy()
+        if self.clk.sec() == 20:
             self.secturtle1.clear()
-
+            self.secturtle1.penup()
+            self.secturtle1.home()
+            self.pozicio()
+            self.secturtle1.pendown()
 
     def masodperc1(self, x):
         self.secturtle.reset()
         self.printToConsole()
         if self.clk.sec() == x:
-            self.secturtle.left(90)
-            self.secturtle.forward(100)
-            self.secturtle.left(120)
-        if self.clk.sec() > x:
-            self.secturtle.clear()
+            self.num.egy()
+        if self.clk.sec() != x:
+            self.num.clearer()
+
 
     def writeMin(self):
         self.minturtle.clear()

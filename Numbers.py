@@ -1,9 +1,13 @@
 from turtle import *
-
+from datetime import *
+from j_clock import *
 class Szamok:
-
     scr = Screen()
+    clk = Clock(scr)
     t = Turtle()
+
+    def clearer(self):
+        self.t.clear()
 
     def egy(self):
         self.t.left(90)
@@ -13,6 +17,8 @@ class Szamok:
         self.t.penup()
         self.t.home()
         self.t.pendown()
+
+
 
     def ketto(self):
         self.t.forward(100)
@@ -103,10 +109,5 @@ class Szamok:
             self.t.left(90)
 
 
-    def __init__(self):
-        self.t.speed(0)
-        self.kilenc()
-
-        self.scr.mainloop()
 
 Szamok()

@@ -2,6 +2,7 @@ from turtle import *
 from j_sampleclock import SampleClock
 from j_clock import *
 
+
 class Kattintgato:
 
     scr = Screen()

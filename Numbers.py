@@ -9,14 +9,17 @@ class Szamok:
     def clearer(self):
         self.t.clear()
 
+    def reset(self):
+        self.t.penup()
+        self.t.home()
+        self.t.pendown()
+
     def egy(self):
         self.t.left(90)
         self.t.forward(200)
         self.t.left(135)
         self.t.forward(100)
-        self.t.penup()
-        self.t.home()
-        self.t.pendown()
+        self.reset()
 
 
 
@@ -28,6 +31,7 @@ class Szamok:
         for i in range(240):
             self.t.forward(0.8)
             self.t.left(0.8)
+        self.reset()
 
     def harom(self):
         self.t.penup()
@@ -37,14 +41,12 @@ class Szamok:
         for j in range(180):
             self.t.forward(1)
             self.t.left(1)
-
         self.t.right(180)
-
         for k in range(180):
             self.t.forward(1)
             self.t.left(1)
-
         self.t.forward(40)
+        self.reset()
 
     def negy(self):
         self.t.penup()

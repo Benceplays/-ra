@@ -5,6 +5,7 @@ from Numbers import *
 
 class Kattintgato:
     num = Szamok()
+    num1 = Szamok()
     scr = Screen()
     t = Turtle()
     clk = Clock(scr)
@@ -15,7 +16,7 @@ class Kattintgato:
 
     def writeSec(self):
         self.printToConsole()
-        self.masodperc1(1)
+        self.masodperc1()
         self.masodperc2(10)
 
     def pozicio(self):
@@ -27,7 +28,7 @@ class Kattintgato:
         self.secturtle.reset()
         self.printToConsole()
         if self.clk.sec() == x:
-            self.num.egy()
+            self.num1.egy()
         if self.clk.sec() == 20:
             self.secturtle1.clear()
             self.secturtle1.penup()
@@ -35,14 +36,25 @@ class Kattintgato:
             self.pozicio()
             self.secturtle1.pendown()
 
-    def masodperc1(self, x):
+    def masodperc1(self):
         self.secturtle.reset()
         self.printToConsole()
-        if self.clk.sec() == x:
+        if self.clk.sec() == 1:
             self.num.egy()
-        if self.clk.sec() != x:
+        if self.clk.sec() != 1:
             self.num.clearer()
-
+        if self.clk.sec() == 2:
+            self.num.ketto()
+        if self.clk.sec() != 2:
+            self.num.clearer()
+        if self.clk.sec == 3:
+            self.num.harom()
+        if self.clk.sec != 3:
+            self.num.clearer()
+        if self.clk.sec == 4:
+            self.num.negy()
+        if self.clk.sec != 4:
+            self.num.clearer()
 
     def writeMin(self):
         self.minturtle.clear()

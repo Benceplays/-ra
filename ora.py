@@ -4,8 +4,8 @@ from j_clock import *
 from Numbers import *
 
 class Kattintgato:
-    num = Szamok()
-    num1 = Szamok()
+    num = Numbers()
+    num1 = Numbers()
     scr = Screen()
     t = Turtle()
     clk = Clock(scr)
@@ -36,9 +36,14 @@ class Kattintgato:
             self.pozicio()
             self.secturtle1.pendown()
 
+
     def masodperc1(self):
         self.secturtle.reset()
         self.printToConsole()
+        if self.clk.sec() == 0:
+            self.num.nulla()
+        if self.clk.sec() != 0:
+            self.num.clearer()
         if self.clk.sec() == 1:
             self.num.egy()
         if self.clk.sec() != 1:
@@ -47,13 +52,33 @@ class Kattintgato:
             self.num.ketto()
         if self.clk.sec() != 2:
             self.num.clearer()
-        if self.clk.sec == 3:
+        if self.clk.sec() == 3:
             self.num.harom()
-        if self.clk.sec != 3:
+        if self.clk.sec() != 3:
             self.num.clearer()
-        if self.clk.sec == 4:
+        if self.clk.sec() == 4:
             self.num.negy()
-        if self.clk.sec != 4:
+        if self.clk.sec() != 4:
+            self.num.clearer()
+        if self.clk.sec() == 5:
+            self.num.ot()
+        if self.clk.sec() != 5:
+            self.num.clearer()
+        if self.clk.sec() == 6:
+            self.num.hat()
+        if self.clk.sec() != 6:
+            self.num.clearer()
+        if self.clk.sec() == 7:
+            self.num.het()
+        if self.clk.sec() != 7:
+            self.num.clearer()
+        if self.clk.sec() == 8:
+            self.num.nyolc()
+        if self.clk.sec() != 8:
+            self.num.clearer()
+        if self.clk.sec() == 9:
+            self.num.kilenc()
+        if self.clk.sec() != 9:
             self.num.clearer()
 
     def writeMin(self):
@@ -81,6 +106,7 @@ class Kattintgato:
             self.hourturtle.right(30 / 6)
 
     def __init__(self):
+        self.scr.bgcolor('black')
         self.secturtle._delay(0)
         self.secturtle.speed(0)
         self.minturtle._delay(0)

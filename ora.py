@@ -27,14 +27,11 @@ class Kattintgato:
     def masodperc2(self, x):
         self.secturtle.reset()
         self.printToConsole()
+        self.num1.t.color("white")
         if self.clk.sec() == x:
             self.num1.egy()
         if self.clk.sec() == 20:
-            self.secturtle1.clear()
-            self.secturtle1.penup()
-            self.secturtle1.home()
-            self.pozicio()
-            self.secturtle1.pendown()
+            self.num1.ketto()
 
 
     def masodperc1(self):

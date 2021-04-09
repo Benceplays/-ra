@@ -5,6 +5,7 @@ class Numbers:
     scr = Screen()
     clk = Clock(scr)
     t = Turtle()
+    t1 = Turtle()
 
     def nulla(self):
         self.digi1()
@@ -49,7 +50,6 @@ class Numbers:
     def digi1(self):
         self.t.begin_fill()
         self.t.fillcolor(0, 0.05, 0)
-
         self.t.forward(100)
         self.t.left(45)
         self.t.forward(25)
@@ -61,9 +61,7 @@ class Numbers:
         self.t.forward(25)
         self.t.left(90)
         self.t.forward(25)
-
         self.t.end_fill()
-
         self.t.back(25)
         self.t.left(45)
 
@@ -1366,7 +1364,6 @@ class Numbers:
     def nemtudom1(self):
         self.t.begin_fill()
         self.t.fillcolor(0, 0.05, 0)
-
         self.t.forward(100)
         self.t.left(45)
         self.t.forward(25)

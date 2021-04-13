@@ -7,6 +7,33 @@ class Numbers:
     t = Turtle()
     t1 = Turtle()
 
+
+    def szamjegyvalto(self):
+        self.t.home()
+        self.t.penup()
+        self.t.backward(300)
+        self.t.pendown()
+
+    def tiz(self):
+        self.nulla()
+        self.szamjegyvalto()
+        self.egy()
+
+    def tizenegy(self):
+        self.egy()
+        self.szamjegyvalto()
+        self.egy()
+
+    def tizenketto(self):
+        self.ketto()
+        self.szamjegyvalto()
+        self.egy()
+
+    def tizenharom(self):
+        self.harom()
+        self.szamjegyvalto()
+        self.egy()
+
     def nulla(self):
         self.digi1()
         self.t.left(90)
@@ -1880,6 +1907,7 @@ class Numbers:
 
         self.t.back(25)
         self.t.left(45)
+
 
 
 Numbers()

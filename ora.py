@@ -17,66 +17,81 @@ class Kattintgato:
     def writeSec(self):
         self.printToConsole()
         self.masodperc1()
-        self.masodperc2(10)
+
 
     def pozicio(self):
         self.secturtle1.penup()
         self.secturtle1.backward(100)
         self.secturtle1.pendown()
 
-    def masodperc2(self, x):
-        self.secturtle.reset()
-        self.printToConsole()
-        self.num1.t.color("white")
+    def kirajzolo(self, x):
+        if self.clk.sec() != x:
+            self.num.clearer()
         if self.clk.sec() == x:
-            self.num1.egy()
-        if self.clk.sec() == 20:
-            self.num1.ketto()
+            if x == 0:
+                self.num.nulla()
+            if x == 1:
+                self.num.egy()
+            if x == 2:
+                self.num.ketto()
+            if x == 3:
+                self.num.harom()
+            if x == 4:
+                self.num.negy()
+            if x == 5:
+                self.num.ot()
+            if x == 6:
+                self.num.hat()
+            if x == 7:
+                self.num.het()
+            if x == 8:
+                self.num.nyolc()
+            if x == 9:
+                self.num.kilenc()
+            if x == 10:
+                self.num.tiz()
+            if x == 11:
+                self.num.tizenegy()
+            if x == 12:
+                self.num.tizenketto()
+            if x == 13:
+                self.num.tizenharom()
+
+    def kirajzolo2(self, x):
+        if self.clk.sec() != x:
+            self.num1.clearer()
+        if self.clk.sec() == x:
+            if x == 0:
+                self.num1.nulla()
+            if x == x < 20:
+                self.num1.egy()
+            if x == x < 30:
+                self.num1.ketto()
+            if x == x < 40:
+                self.num1.harom()
+            if x == x < 50:
+                self.num1.negy()
+            if x == x < 60:
+                self.num1.ot()
+
 
 
     def masodperc1(self):
-        self.secturtle.reset()
         self.printToConsole()
-        if self.clk.sec() == 0:
-            self.num.nulla()
-        if self.clk.sec() != 0:
-            self.num.clearer()
-        if self.clk.sec() == 1:
-            self.num.egy()
-        if self.clk.sec() != 1:
-            self.num.clearer()
-        if self.clk.sec() == 2:
-            self.num.ketto()
-        if self.clk.sec() != 2:
-            self.num.clearer()
-        if self.clk.sec() == 3:
-            self.num.harom()
-        if self.clk.sec() != 3:
-            self.num.clearer()
-        if self.clk.sec() == 4:
-            self.num.negy()
-        if self.clk.sec() != 4:
-            self.num.clearer()
-        if self.clk.sec() == 5:
-            self.num.ot()
-        if self.clk.sec() != 5:
-            self.num.clearer()
-        if self.clk.sec() == 6:
-            self.num.hat()
-        if self.clk.sec() != 6:
-            self.num.clearer()
-        if self.clk.sec() == 7:
-            self.num.het()
-        if self.clk.sec() != 7:
-            self.num.clearer()
-        if self.clk.sec() == 8:
-            self.num.nyolc()
-        if self.clk.sec() != 8:
-            self.num.clearer()
-        if self.clk.sec() == 9:
-            self.num.kilenc()
-        if self.clk.sec() != 9:
-            self.num.clearer()
+        self.kirajzolo(0)
+        self.kirajzolo(1)
+        self.kirajzolo(2)
+        self.kirajzolo(3)
+        self.kirajzolo(4)
+        self.kirajzolo(5)
+        self.kirajzolo(6)
+        self.kirajzolo(7)
+        self.kirajzolo(8)
+        self.kirajzolo(9)
+        self.kirajzolo(10)
+        self.kirajzolo(11)
+        self.kirajzolo(12)
+        self.kirajzolo(13)
 
     def writeMin(self):
         self.minturtle.clear()

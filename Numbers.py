@@ -38,6 +38,36 @@ class Numbers:
         self.szamjegyvalto()
         self.egy()
 
+    def tizenot(self):
+        self.ot()
+        self.szamjegyvalto()
+        self.egy()
+
+    def tizenhat(self):
+        self.hat()
+        self.szamjegyvalto()
+        self.egy()
+
+    def tizenhet(self):
+        self.het()
+        self.szamjegyvalto()
+        self.egy()
+
+    def tizennyolc(self):
+        self.nyolc()
+        self.szamjegyvalto()
+        self.egy()
+
+    def tizenkilenc(self):
+        self.kilenc()
+        self.szamjegyvalto()
+        self.egy()
+
+    def husz(self):
+        self.nulla()
+        self.szamjegyvalto()
+        self.ketto()
+
     def nulla(self):
         self.digi1()
         self.t.left(90)
@@ -1911,7 +1941,6 @@ class Numbers:
 
         self.t.back(25)
         self.t.left(45)
-
 
 
 Numbers()

@@ -51,7 +51,7 @@ class Kattintgato:
             if x == 9:
                 self.num.kilenc()
             if x == 10:
-                self.num.tiz()
+                self.num.nulla()
             if x == 11:
                 self.num.egy()
             if x == 12:
@@ -62,6 +62,94 @@ class Kattintgato:
                 self.num.negy()
             if x == 15:
                 self.num.ot()
+            if x == 16:
+                self.num.hat()
+            if x == 17:
+                self.num.het()
+            if x == 18:
+                self.num.nyolc()
+            if x == 19:
+                self.num.kilenc()
+            if x == 20:
+                self.num.nulla()
+            if x == 21:
+                self.num.egy()
+            if x == 22:
+                self.num.ketto()
+            if x == 23:
+                self.num.harom()
+            if x == 24:
+                self.num.negy()
+            if x == 25:
+                self.num.ot()
+            if x == 26:
+                self.num.hat()
+            if x == 27:
+                self.num.het()
+            if x == 28:
+                self.num.nyolc()
+            if x == 29:
+                self.num.kilenc()
+            if x == 30:
+                self.num.nulla()
+            if x == 31:
+                self.num.egy()
+            if x == 32:
+                self.num.ketto()
+            if x == 33:
+                self.num.harom()
+            if x == 34:
+                self.num.negy()
+            if x == 35:
+                self.num.ot()
+            if x == 36:
+                self.num.hat()
+            if x == 37:
+                self.num.het()
+            if x == 38:
+                self.num.nyolc()
+            if x == 39:
+                self.num.kilenc()
+            if x == 40:
+                self.num.nulla()
+            if x == 41:
+                self.num.egy()
+            if x == 42:
+                self.num.ketto()
+            if x == 43:
+                self.num.harom()
+            if x == 44:
+                self.num.negy()
+            if x == 45:
+                self.num.ot()
+            if x == 46:
+                self.num.hat()
+            if x == 47:
+                self.num.het()
+            if x == 48:
+                self.num.nyolc()
+            if x == 49:
+                self.num.kilenc()
+            if x == 50:
+                self.num.nulla()
+            if x == 51:
+                self.num.egy()
+            if x == 52:
+                self.num.ketto()
+            if x == 53:
+                self.num.harom()
+            if x == 54:
+                self.num.negy()
+            if x == 55:
+                self.num.ot()
+            if x == 56:
+                self.num.hat()
+            if x == 57:
+                self.num.het()
+            if x == 58:
+                self.num.nyolc()
+            if x == 59:
+                self.num.kilenc()
 
     def kirajzolo2(self, x):
         if self.clk.sec() != x:
@@ -81,6 +169,10 @@ class Kattintgato:
                 self.num1.ot()
 
     def masodperc2(self):
+        if self.clk.sec() == 0:
+            self.num1.nulla()
+        if self.clk.sec() == 9:
+            self.num1.clearer()
         if self.clk.sec() == 10:
             self.num1.egy()
         if self.clk.sec() == 20:
@@ -88,6 +180,18 @@ class Kattintgato:
         if self.clk.sec() == 20:
             self.num1.ketto()
         if self.clk.sec() == 30:
+            self.num1.clearer()
+        if self.clk.sec() == 30:
+            self.num1.harom()
+        if self.clk.sec() == 40:
+            self.num1.clearer()
+        if self.clk.sec() == 40:
+            self.num1.negy()
+        if self.clk.sec() == 50:
+            self.num1.clearer()
+        if self.clk.sec() == 50:
+            self.num1.ot()
+        if self.clk.sec() == 59:
             self.num1.clearer()
 
     def masodperc1(self):
@@ -108,6 +212,51 @@ class Kattintgato:
         self.kirajzolo(13)
         self.kirajzolo(14)
         self.kirajzolo(15)
+        self.kirajzolo(16)
+        self.kirajzolo(17)
+        self.kirajzolo(18)
+        self.kirajzolo(19)
+        self.kirajzolo(20)
+        self.kirajzolo(21)
+        self.kirajzolo(22)
+        self.kirajzolo(23)
+        self.kirajzolo(24)
+        self.kirajzolo(25)
+        self.kirajzolo(26)
+        self.kirajzolo(27)
+        self.kirajzolo(28)
+        self.kirajzolo(29)
+        self.kirajzolo(30)
+        self.kirajzolo(31)
+        self.kirajzolo(32)
+        self.kirajzolo(33)
+        self.kirajzolo(34)
+        self.kirajzolo(35)
+        self.kirajzolo(36)
+        self.kirajzolo(37)
+        self.kirajzolo(38)
+        self.kirajzolo(39)
+        self.kirajzolo(40)
+        self.kirajzolo(41)
+        self.kirajzolo(42)
+        self.kirajzolo(43)
+        self.kirajzolo(44)
+        self.kirajzolo(45)
+        self.kirajzolo(46)
+        self.kirajzolo(47)
+        self.kirajzolo(48)
+        self.kirajzolo(49)
+        self.kirajzolo(50)
+        self.kirajzolo(51)
+        self.kirajzolo(52)
+        self.kirajzolo(53)
+        self.kirajzolo(54)
+        self.kirajzolo(55)
+        self.kirajzolo(56)
+        self.kirajzolo(57)
+        self.kirajzolo(58)
+        self.kirajzolo(59)
+
 
     def writeMin(self):
         self.minturtle.clear()

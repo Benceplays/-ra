@@ -69,6 +69,7 @@ class Numbers2:
         self.ketto()
 
     def nulla(self):
+        self.tizespoz()
         self.digi1()
         self.t1.left(90)
         self.t1.penup()
@@ -644,6 +645,7 @@ class Numbers2:
         self.t1.left(45)
 
     def harom(self):
+        self.tizespoz()
         self.valami1()
         self.t1.left(90)
         self.t1.penup()
@@ -831,6 +833,7 @@ class Numbers2:
         self.t1.left(45)
 
     def negy(self):
+        self.tizespoz()
         self.abc1()
         self.t1.left(90)
         self.t1.penup()
@@ -1018,6 +1021,7 @@ class Numbers2:
         self.t1.left(45)
 
     def ot(self):
+        self.tizespoz()
         self.asd1()
         self.t1.left(90)
         self.t1.penup()

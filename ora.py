@@ -58,8 +58,19 @@ class Kattintgato:
                 self.num.tizenharom()
             if x == 14:
                 self.num.tizennegy()
-            if x ==15:
+            if x == 15:
                 self.num.tizenot()
+            if x == 16:
+                self.num.tizenhat()
+            if x == 17:
+                self.num.tizenhet()
+            if x == 18:
+                self.num.tizennyolc()
+            if x == 19:
+                self.num.tizenkilenc()
+            if x == 20:
+                self.num.husz()
+
     def kirajzolo2(self, x):
         if self.clk.sec() != x:
             self.num1.clearer()
@@ -97,6 +108,12 @@ class Kattintgato:
         self.kirajzolo(13)
         self.kirajzolo(14)
         self.kirajzolo(15)
+        self.kirajzolo(16)
+        self.kirajzolo(17)
+        self.kirajzolo(18)
+        self.kirajzolo(19)
+        self.kirajzolo(20)
+
 
     def writeMin(self):
         self.minturtle.clear()

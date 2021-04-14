@@ -516,6 +516,7 @@ class Numbers2:
         self.t1.back(25)
         self.t1.left(45)
 
+
     def szam2(self):
         self.t1.begin_fill()
         self.t1.fillcolor(0, 0.05, 0)

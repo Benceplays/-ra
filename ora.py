@@ -4,6 +4,7 @@ from j_clock import *
 from Numbers import *
 from Numbers2 import *
 
+
 class Kattintgato:
     num = Numbers()
     num1 = Numbers2()

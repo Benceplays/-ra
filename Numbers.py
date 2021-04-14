@@ -6,6 +6,7 @@ class Numbers:
     clk = Clock(scr)
     t : Turtle
 
+
     def szamjegyvalto(self):
         self.t.home()
         self.t.penup()

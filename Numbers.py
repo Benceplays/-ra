@@ -33,6 +33,7 @@ class Numbers:
         self.harom()
         self.szamjegyvalto()
         self.egy()
+
     def tizennegy(self):
         self.negy()
         self.szamjegyvalto()

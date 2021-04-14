@@ -2,10 +2,11 @@ from turtle import *
 from j_sampleclock import SampleClock
 from j_clock import *
 from Numbers import *
+from Numbers2 import *
 
 class Kattintgato:
     num = Numbers()
-    num1 = Numbers()
+    num1 = Numbers2()
     scr = Screen()
     t = Turtle()
     clk = Clock(scr)
@@ -17,7 +18,7 @@ class Kattintgato:
     def writeSec(self):
         self.printToConsole()
         self.masodperc1()
-
+        self.masodperc2()
 
     def pozicio(self):
         self.secturtle1.penup()
@@ -51,15 +52,16 @@ class Kattintgato:
             if x == 10:
                 self.num.tiz()
             if x == 11:
-                self.num.tizenegy()
+                self.num.egy()
             if x == 12:
-                self.num.tizenketto()
+                self.num.ketto()
             if x == 13:
-                self.num.tizenharom()
+                self.num.harom()
             if x == 14:
-                self.num.tizennegy()
-            if x ==15:
-                self.num.tizenot()
+                self.num.negy()
+            if x == 15:
+                self.num.ot()
+
     def kirajzolo2(self, x):
         if self.clk.sec() != x:
             self.num1.clearer()
@@ -77,7 +79,15 @@ class Kattintgato:
             if x == x < 60:
                 self.num1.ot()
 
-
+    def masodperc2(self):
+        if self.clk.sec() == 10:
+            self.num1.egy()
+        if self.clk.sec() == 20:
+            self.num1.clearer()
+        if self.clk.sec() == 20:
+            self.num1.ketto()
+        if self.clk.sec() == 30:
+            self.num1.clearer()
 
     def masodperc1(self):
         self.printToConsole()

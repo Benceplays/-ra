@@ -56,6 +56,13 @@ class Clock:
     def _handleEvents(self):
         self._scr.ontimer(fun=self._handleEvents, t=self.frequency)
         self._t = datetime.now()
+
+        dwn: int = 0
+        for t in self._scr.turtles():
+            if (t.isdown()):
+                dwn = dwn + 1
+
+
         if self._dsp_sec != self._t.second:
             self._dsp_sec = self._t.second
             if self._secondChangeEvent != 0:

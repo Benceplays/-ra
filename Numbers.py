@@ -4,9 +4,7 @@ from j_clock import *
 class Numbers:
     scr = Screen()
     clk = Clock(scr)
-    t = Turtle()
-    t1 = Turtle()
-
+    t : Turtle
 
     def szamjegyvalto(self):
         self.t.home()
@@ -1942,6 +1940,9 @@ class Numbers:
 
         self.t.back(25)
         self.t.left(45)
+
+    def __init__(self):
+        self.t = Turtle()
 
 
 Numbers()

@@ -7,14 +7,15 @@ class Clock:
     _secondChangeEvent = 0
     _minuteChangeEvent = 0
     _scr: TurtleScreen
-    _dsp_min: int = _t.min
-    _dsp_sec: int = _t.second
-    _dsp_hour: int = _t.hour
-    frequency: int = 100
+    _dsp_min: int = -1
+    _dsp_sec: int = -1
+    _dsp_hour: int = -1
+    frequency: int = 400
+    _enabled: int = 256
 
     def __init__(self, scr: TurtleScreen):
         self._scr = scr
-        self._handleEvents()
+        self._scr.ontimer(fun=self._handleEvents, t=self.frequency)
 
     def UTC(self) -> str:
         return str(self._t.utcnow())
@@ -43,36 +44,67 @@ class Clock:
 
     def setOnSecondChangeListener(self, fun):
         self._secondChangeEvent = fun
-        fun()
 
     def setOnMinuteChangeListener(self, fun):
         self._minuteChangeEvent = fun
-        fun()
 
     def setOnHourChangeListener(self, fun):
         self._hourChangeEvent = fun
-        fun()
 
     def _handleEvents(self):
-        self._scr.ontimer(fun=self._handleEvents, t=self.frequency)
+        # print(self._enabled)
+        # print("---")
+
         self._t = datetime.now()
 
-        dwn: int = 0
-        for t in self._scr.turtles():
-            if (t.isdown()):
-                dwn = dwn + 1
-
-
-        if self._dsp_sec != self._t.second:
-            self._dsp_sec = self._t.second
+        if self._enabled == 256:
+            if self._hourChangeEvent != 0:
+                self._hourChangeEvent()
+            if self._minuteChangeEvent != 0:
+                self._minuteChangeEvent()
             if self._secondChangeEvent != 0:
                 self._secondChangeEvent()
-        if self._dsp_min != self._t.min:
-            print("minute: " + str(self._t.min))
-            self._dsp_min = self._t.min
-        if self._dsp_hour != self._t.hour:
-            print("hour: " + str(self._t.hour))
-            self._dsp_hour = self._t.hour
+            self._scr.ontimer(fun=self._handleEvents, t=self.frequency)
+            self._dsp_hour = self.hour24()
+            self._dsp_min = self.min()
+            self._dsp_sec = self.sec()
+            self._enabled = 0
+            return
+
+        if self._enabled != 0:
+            return
+
+        if self._dsp_hour != self.hour24():
+            print("HourChange")
+            self._dsp_hour = self.hour24()
+            if self._hourChangeEvent != 0:
+                self._enabled = self._enabled + 1
+                self._hourChangeEvent()
+                self._enabled = self._enabled - 1
+
+        self._t = datetime.now()
+        if self._dsp_min != self.min():
+            print("MinuteChange")
+            self._dsp_min = self.min()
+            if self._minuteChangeEvent != 0:
+                self._enabled = self._enabled + 2
+                self._minuteChangeEvent()
+                self._enabled = self._enabled - 2
+
+        self._t = datetime.now()
+        if self._dsp_sec != self.sec():
+            print("SecondChange")
+            self._dsp_sec = self.sec()
+            if self._secondChangeEvent != 0:
+                self._enabled = self._enabled + 4
+                print("Star")
+                self._secondChangeEvent()
+                print("Stop")
+                self._enabled = self._enabled - 4
+
+        self._scr.ontimer(fun=self._handleEvents, t=self.frequency)
+
+
 
     def leftNumber(self, num: int) -> int:
         return (num // 10) % 10

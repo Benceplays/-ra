@@ -23,6 +23,7 @@ class Kattintgato:
         self.masodperc1()
         self.masodperc2()
         self.perc()
+        self.perctizes()
 
     def pozicio(self):
         self.secturtle1.penup()
@@ -270,19 +271,32 @@ class Kattintgato:
         self.kirajzolo3(7)
         self.kirajzolo3(8)
         self.kirajzolo3(9)
-        self.kirajzolo3(10)
-        self.kirajzolo3(11)
-        self.kirajzolo3(12)
-        self.kirajzolo3(13)
-        self.kirajzolo3(14)
-        self.kirajzolo3(15)
-        self.kirajzolo3(16)
-        self.kirajzolo3(17)
-        self.kirajzolo3(18)
-        self.kirajzolo3(19)
-        self.kirajzolo3(20)
-        self.kirajzolo3(21)
-        self.kirajzolo3(22)
+
+    def perctizes(self):
+        if self.clk.min() == 0:
+            self.num2.nulla2()
+        if self.clk.min() == 9:
+            self.num2.clearer()
+        if self.clk.min() == 10:
+            self.num2.egy2()
+        if self.clk.min() == 20:
+            self.num2.clearer()
+        if self.clk.min() == 20:
+            self.num2.ketto2()
+        if self.clk.min() == 30:
+            self.num2.clearer()
+        if self.clk.min() == 30:
+            self.num2.harom2()
+        if self.clk.min() == 40:
+            self.num2.clearer()
+        if self.clk.min() == 40:
+            self.num2.negy2()
+        if self.clk.min() == 50:
+            self.num2.clearer()
+        if self.clk.min() == 50:
+            self.num2.ot2()
+        if self.clk.min() == 59:
+            self.num2.clearer()
 
     def writeMin(self):
         self.minturtle.clear()

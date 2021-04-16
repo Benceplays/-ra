@@ -4,6 +4,7 @@ from j_clock import *
 from Numbers import *
 from Numbers2 import *
 from Numbers3 import *
+from Numbers4 import *
 
 class Kattintgato:
     num = Numbers()
@@ -23,6 +24,7 @@ class Kattintgato:
         self.masodperc1()
         self.masodperc2()
         self.perc()
+        self.hour12()
         self.perctizes()
 
     def pozicio(self):
@@ -455,6 +457,17 @@ class Kattintgato:
 
     def hour12(self):
         self.kirajzolo4(1)
+        self.kirajzolo4(2)
+        self.kirajzolo4(3)
+        self.kirajzolo4(4)
+        self.kirajzolo4(5)
+        self.kirajzolo4(6)
+        self.kirajzolo4(7)
+        self.kirajzolo4(8)
+        self.kirajzolo4(9)
+        self.kirajzolo4(10)
+        self.kirajzolo4(11)
+        self.kirajzolo4(12)
 
     def pozicio3(self):
         self.minturtle.penup()
@@ -466,125 +479,32 @@ class Kattintgato:
             self.num.clearer()
         if self.clk.hour12() == x:
             if x == 0:
-                self.num4.nulla()
+                self.num3.nulla()
             if x == 1:
-                self.num4.egy()
+                self.num3.egy()
             if x == 2:
-                self.num4.ketto()
+                self.num3.ketto()
             if x == 3:
-                self.num4.harom()
+                self.num3.harom()
             if x == 4:
-                self.num4.negy()
+                self.num3.negy()
             if x == 5:
-                self.num4.ot()
+                self.num3.ot()
             if x == 6:
-                self.num4.hat()
+                self.num3.hat()
             if x == 7:
-                self.num4.het()
+                self.num3.het()
             if x == 8:
-                self.num4.nyolc()
+                self.num3.nyolc()
             if x == 9:
-                self.num4.kilenc()
+                self.num3.kilenc()
             if x == 10:
-                self.num4.nulla()
+                self.num3.nulla()
             if x == 11:
-                self.num4.egy()
+                self.num3.egy()
             if x == 12:
-                self.num4.ketto()
-            if x == 13:
-                self.num4.harom()
-            if x == 14:
-                self.num4.negy()
-            if x == 15:
-                self.num4.ot()
-            if x == 16:
-                self.num4.hat()
-            if x == 17:
-                self.num4.het()
-            if x == 18:
-                self.num4.nyolc()
-            if x == 19:
-                self.num4.kilenc()
-            if x == 20:
-                self.num4.nulla()
-            if x == 21:
-                self.num4.egy()
-            if x == 22:
-                self.num4.ketto()
-            if x == 23:
-                self.num4.harom()
-            if x == 24:
-                self.num4.negy()
-            if x == 25:
-                self.num4.ot()
-            if x == 26:
-                self.num4.hat()
-            if x == 27:
-                self.num4.het()
-            if x == 28:
-                self.num4.nyolc()
-            if x == 29:
-                self.num4.kilenc()
-            if x == 30:
-                self.num4.nulla()
-            if x == 31:
-                self.num4.egy()
-            if x == 32:
-                self.num4.ketto()
-            if x == 33:
-                self.num4.harom()
-            if x == 34:
-                self.num4.negy()
-            if x == 35:
-                self.num4.ot()
-            if x == 36:
-                self.num4.hat()
-            if x == 37:
-                self.num4.het()
-            if x == 38:
-                self.num4.nyolc()
-            if x == 39:
-                self.num4.kilenc()
-            if x == 40:
-                self.num4.nulla()
-            if x == 41:
-                self.num4.egy()
-            if x == 42:
-                self.num4.ketto()
-            if x == 43:
-                self.num4.harom()
-            if x == 44:
-                self.num4.negy()
-            if x == 45:
-                self.num4.ot()
-            if x == 46:
-                self.num4.hat()
-            if x == 47:
-                self.num4.het()
-            if x == 48:
-                self.num4.nyolc()
-            if x == 49:
-                self.num4.kilenc()
-            if x == 50:
-                self.num4.nulla()
-            if x == 51:
-                self.num4.egy()
-            if x == 52:
-                self.num4.ketto()
-            if x == 53:
-                self.num4.harom()
-            if x == 54:
-                self.num4.negy()
-            if x == 55:
-                self.num4.ot()
-            if x == 56:
-                self.num4.hat()
-            if x == 57:
-                self.num4.het()
-            if x == 58:
-                self.num4.nyolc()
-            if x == 59:
-                self.num4.kilenc()
+                self.num3.ketto()
+
 
     def __init__(self):
         self.scr.bgcolor('black')

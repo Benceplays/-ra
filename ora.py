@@ -3,11 +3,13 @@ from j_sampleclock import SampleClock
 from j_clock import *
 from Numbers import *
 from Numbers2 import *
-
+from Numbers3 import *
 
 class Kattintgato:
     num = Numbers()
     num1 = Numbers2()
+    num2 = Numbers3()
+    num3 = Numbers4()
     scr = Screen()
     t = Turtle()
     clk = Clock(scr)
@@ -20,6 +22,7 @@ class Kattintgato:
         self.printToConsole()
         self.masodperc1()
         self.masodperc2()
+        self.perc()
 
     def pozicio(self):
         self.secturtle1.penup()
@@ -257,6 +260,29 @@ class Kattintgato:
         self.kirajzolo(58)
         self.kirajzolo(59)
 
+    def perc(self):
+        self.kirajzolo3(1)
+        self.kirajzolo3(2)
+        self.kirajzolo3(3)
+        self.kirajzolo3(4)
+        self.kirajzolo3(5)
+        self.kirajzolo3(6)
+        self.kirajzolo3(7)
+        self.kirajzolo3(8)
+        self.kirajzolo3(9)
+        self.kirajzolo3(10)
+        self.kirajzolo3(11)
+        self.kirajzolo3(12)
+        self.kirajzolo3(13)
+        self.kirajzolo3(14)
+        self.kirajzolo3(15)
+        self.kirajzolo3(16)
+        self.kirajzolo3(17)
+        self.kirajzolo3(18)
+        self.kirajzolo3(19)
+        self.kirajzolo3(20)
+        self.kirajzolo3(21)
+        self.kirajzolo3(22)
 
     def writeMin(self):
         self.minturtle.clear()

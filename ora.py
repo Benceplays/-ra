@@ -4,13 +4,11 @@ from j_clock import *
 from Numbers import *
 from Numbers2 import *
 from Numbers3 import *
-from Numbers4 import *
 
 class Kattintgato:
     num = Numbers()
     num1 = Numbers2()
     num2 = Numbers3()
-    num3 = Numbers4()
     scr = Screen()
     t = Turtle()
     clk = Clock(scr)
@@ -23,9 +21,7 @@ class Kattintgato:
         self.printToConsole()
         self.masodperc1()
         self.masodperc2()
-        self.perc()
-        self.hour12()
-        self.perctizes()
+        self.kirajzoloperc()
 
     def pozicio(self):
         self.secturtle1.penup()
@@ -263,42 +259,6 @@ class Kattintgato:
         self.kirajzolo(58)
         self.kirajzolo(59)
 
-    def perc(self):
-        self.kirajzolo3(1)
-        self.kirajzolo3(2)
-        self.kirajzolo3(3)
-        self.kirajzolo3(4)
-        self.kirajzolo3(5)
-        self.kirajzolo3(6)
-        self.kirajzolo3(7)
-        self.kirajzolo3(8)
-        self.kirajzolo3(9)
-
-    def perctizes(self):
-        if self.clk.min() == 0:
-            self.num2.nulla2()
-        if self.clk.min() == 9:
-            self.num2.clearer()
-        if self.clk.min() == 10:
-            self.num2.egy2()
-        if self.clk.min() == 20:
-            self.num2.clearer()
-        if self.clk.min() == 20:
-            self.num2.ketto2()
-        if self.clk.min() == 30:
-            self.num2.clearer()
-        if self.clk.min() == 30:
-            self.num2.harom2()
-        if self.clk.min() == 40:
-            self.num2.clearer()
-        if self.clk.min() == 40:
-            self.num2.negy2()
-        if self.clk.min() == 50:
-            self.num2.clearer()
-        if self.clk.min() == 50:
-            self.num2.ot2()
-        if self.clk.min() == 59:
-            self.num2.clearer()
 
     def writeMin(self):
         self.minturtle.clear()
@@ -312,137 +272,6 @@ class Kattintgato:
             self.minturtle.forward(18.849555921538759430775860299677)
             self.minturtle.right(6)
 
-    def pozicio2(self):
-        self.minturtle.penup()
-        self.minturtle.backward(500)
-        self.minturtle.pendown()
-
-
-    def kirajzolo3(self, x):
-        if self.clk.min() != x:
-            self.num2.clearer()
-        if self.clk.min() == x:
-            if x == 0:
-                self.num2.nulla()
-            if x == 1:
-                self.num2.egy()
-            if x == 2:
-                self.num2.ketto()
-            if x == 3:
-                self.num2.harom()
-            if x == 4:
-                self.num2.negy()
-            if x == 5:
-                self.num2.ot()
-            if x == 6:
-                self.num2.hat()
-            if x == 7:
-                self.num2.het()
-            if x == 8:
-                self.num2.nyolc()
-            if x == 9:
-                self.num2.kilenc()
-            if x == 10:
-                self.num2.nulla()
-            if x == 11:
-                self.num2.egy()
-            if x == 12:
-                self.num2.ketto()
-            if x == 13:
-                self.num2.harom()
-            if x == 14:
-                self.num2.negy()
-            if x == 15:
-                self.num2.ot()
-            if x == 16:
-                self.num2.hat()
-            if x == 17:
-                self.num2.het()
-            if x == 18:
-                self.num2.nyolc()
-            if x == 19:
-                self.num2.kilenc()
-            if x == 20:
-                self.num2.nulla()
-            if x == 21:
-                self.num2.egy()
-            if x == 22:
-                self.num2.ketto()
-            if x == 23:
-                self.num2.harom()
-            if x == 24:
-                self.num2.negy()
-            if x == 25:
-                self.num2.ot()
-            if x == 26:
-                self.num2.hat()
-            if x == 27:
-                self.num2.het()
-            if x == 28:
-                self.num2.nyolc()
-            if x == 29:
-                self.num2.kilenc()
-            if x == 30:
-                self.num2.nulla()
-            if x == 31:
-                self.num2.egy()
-            if x == 32:
-                self.num2.ketto()
-            if x == 33:
-                self.num2.harom()
-            if x == 34:
-                self.num2.negy()
-            if x == 35:
-                self.num2.ot()
-            if x == 36:
-                self.num2.hat()
-            if x == 37:
-                self.num2.het()
-            if x == 38:
-                self.num2.nyolc()
-            if x == 39:
-                self.num2.kilenc()
-            if x == 40:
-                self.num2.nulla()
-            if x == 41:
-                self.num2.egy()
-            if x == 42:
-                self.num2.ketto()
-            if x == 43:
-                self.num2.harom()
-            if x == 44:
-                self.num2.negy()
-            if x == 45:
-                self.num2.ot()
-            if x == 46:
-                self.num2.hat()
-            if x == 47:
-                self.num2.het()
-            if x == 48:
-                self.num2.nyolc()
-            if x == 49:
-                self.num2.kilenc()
-            if x == 50:
-                self.num2.nulla()
-            if x == 51:
-                self.num2.egy()
-            if x == 52:
-                self.num2.ketto()
-            if x == 53:
-                self.num2.harom()
-            if x == 54:
-                self.num2.negy()
-            if x == 55:
-                self.num2.ot()
-            if x == 56:
-                self.num2.hat()
-            if x == 57:
-                self.num2.het()
-            if x == 58:
-                self.num2.nyolc()
-            if x == 59:
-                self.num2.kilenc()
-
     def writeHour(self):
         self.hourturtle.clear()
         self.hourturtle.reset()
@@ -455,56 +284,248 @@ class Kattintgato:
             self.hourturtle.forward(83.775804095727819692337156887453 / 6)
             self.hourturtle.right(30 / 6)
 
-    def hour12(self):
-        self.kirajzolo4(1)
-        self.kirajzolo4(2)
-        self.kirajzolo4(3)
-        self.kirajzolo4(4)
-        self.kirajzolo4(5)
-        self.kirajzolo4(6)
-        self.kirajzolo4(7)
-        self.kirajzolo4(8)
-        self.kirajzolo4(9)
-        self.kirajzolo4(10)
-        self.kirajzolo4(11)
-        self.kirajzolo4(12)
 
-    def pozicio3(self):
-        self.minturtle.penup()
-        self.minturtle.backward(500)
-        self.minturtle.pendown()
 
-    def kirajzolo4(self, x):
-        if self.clk.hour12() != x:
-            self.num.clearer()
-        if self.clk.hour12() == x:
-            if x == 0:
-                self.num3.nulla()
-            if x == 1:
-                self.num3.egy()
-            if x == 2:
-                self.num3.ketto()
-            if x == 3:
-                self.num3.harom()
-            if x == 4:
-                self.num3.negy()
-            if x == 5:
-                self.num3.ot()
-            if x == 6:
-                self.num3.hat()
-            if x == 7:
-                self.num3.het()
-            if x == 8:
-                self.num3.nyolc()
-            if x == 9:
-                self.num3.kilenc()
-            if x == 10:
-                self.num3.nulla()
-            if x == 11:
-                self.num3.egy()
-            if x == 12:
-                self.num3.ketto()
 
+    def kirajzoloperc(self):
+        if self.clk.min() == 0:
+            self.num2.clearer()
+        if self.clk.min() == 0:
+            self.num2.nulla()
+        if self.clk.min() == 1:
+            self.num2.clearer()
+        if self.clk.min() == 1:
+            self.num2.egy()
+        if self.clk.min() == 2:
+            self.num2.clearer()
+        if self.clk.min() == 2:
+            self.num2.ketto()
+        if self.clk.min() == 3:
+            self.num2.clearer()
+        if self.clk.min() == 3:
+            self.num2.harom()
+        if self.clk.min() == 4:
+            self.num2.clearer()
+        if self.clk.min() == 4:
+            self.num2.negy()
+        if self.clk.min() == 5:
+            self.num2.clearer()
+        if self.clk.min() == 5:
+            self.num2.ot()
+        if self.clk.min() == 6:
+            self.num2.clearer()
+        if self.clk.min() == 6:
+            self.num2.hat()
+        if self.clk.min() == 7:
+            self.num2.clearer()
+        if self.clk.min() == 7:
+            self.num2.het()
+        if self.clk.min() == 8:
+            self.num2.clearer()
+        if self.clk.min() == 8:
+            self.num2.nyolc()
+        if self.clk.min() == 9:
+            self.num2.clearer()
+        if self.clk.min() == 9:
+            self.num2.kilenc()
+        if self.clk.min() == 10:
+            self.num2.clearer()
+        if self.clk.min() == 10:
+            self.num2.nulla()
+        if self.clk.min() == 11:
+            self.num2.clearer()
+        if self.clk.min() == 11:
+            self.num2.egy()
+        if self.clk.min() == 12:
+            self.num2.clearer()
+        if self.clk.min() == 12:
+            self.num2.ketto()
+        if self.clk.min() == 13:
+            self.num2.clearer()
+        if self.clk.min() == 13:
+            self.num2.harom()
+        if self.clk.min() == 14:
+            self.num2.clearer()
+        if self.clk.min() == 14:
+            self.num2.negy()
+        if self.clk.min() == 15:
+            self.num2.clearer()
+        if self.clk.min() == 15:
+            self.num2.ot()
+        if self.clk.min() == 16:
+            self.num2.clearer()
+        if self.clk.min() == 16:
+            self.num2.hat()
+        if self.clk.min() == 17:
+            self.num2.clearer()
+        if self.clk.min() == 17:
+            self.num2.het()
+        if self.clk.min() == 18:
+            self.num2.clearer()
+        if self.clk.min() == 18:
+            self.num2.nyolc()
+        if self.clk.min() == 19:
+            self.num2.clearer()
+        if self.clk.min() == 19:
+            self.num2.kilenc()
+        if self.clk.min() == 20:
+            self.num2.clearer()
+        if self.clk.min() == 20:
+            self.num2.nulla()
+        if self.clk.min() == 21:
+            self.num2.clearer()
+        if self.clk.min() == 21:
+            self.num2.egy()
+        if self.clk.min() == 22:
+            self.num2.clearer()
+        if self.clk.min() == 22:
+            self.num2.ketto()
+        if self.clk.min() == 23:
+            self.num2.clearer()
+        if self.clk.min() == 23:
+            self.num2.harom()
+        if self.clk.min() == 24:
+            self.num2.clearer()
+        if self.clk.min() == 24:
+            self.num2.negy()
+        if self.clk.min() == 25:
+            self.num2.clearer()
+        if self.clk.min() == 25:
+            self.num2.ot()
+        if self.clk.min() == 26:
+            self.num2.clearer()
+        if self.clk.min() == 26:
+            self.num2.hat()
+        if self.clk.min() == 27:
+            self.num2.clearer()
+        if self.clk.min() == 27:
+            self.num2.het()
+        if self.clk.min() == 28:
+            self.num2.clearer()
+        if self.clk.min() == 28:
+            self.num2.nyolc()
+        if self.clk.min() == 29:
+            self.num2.clearer()
+        if self.clk.min() == 29:
+            self.num2.kilenc()
+        if self.clk.min() == 30:
+            self.num2.clearer()
+        if self.clk.min() == 30:
+            self.num2.nulla()
+        if self.clk.min() == 31:
+            self.num2.clearer()
+        if self.clk.min() == 31:
+            self.num2.egy()
+        if self.clk.min() == 32:
+            self.num2.clearer()
+        if self.clk.min() == 32:
+            self.num2.ketto()
+        if self.clk.min() == 33:
+            self.num2.clearer()
+        if self.clk.min() == 33:
+            self.num2.harom()
+        if self.clk.min() == 34:
+            self.num2.clearer()
+        if self.clk.min() == 34:
+            self.num2.negy()
+        if self.clk.min() == 35:
+            self.num2.clearer()
+        if self.clk.min() == 35:
+            self.num2.ot()
+        if self.clk.min() == 36:
+            self.num2.clearer()
+        if self.clk.min() == 36:
+            self.num2.hat()
+        if self.clk.min() == 37:
+            self.num2.clearer()
+        if self.clk.min() == 37:
+            self.num2.het()
+        if self.clk.min() == 38:
+            self.num2.clearer()
+        if self.clk.min() == 38:
+            self.num2.nyolc()
+        if self.clk.min() == 39:
+            self.num2.clearer()
+        if self.clk.min() == 39:
+            self.num2.kilenc()
+        if self.clk.min() == 40:
+            self.num2.nulla()
+        if self.clk.min() == 41:
+            self.num2.clearer()
+        if self.clk.min() == 41:
+            self.num2.egy()
+        if self.clk.min() == 42:
+            self.num2.clearer()
+        if self.clk.min() == 42:
+            self.num2.ketto()
+        if self.clk.min() == 43:
+            self.num2.clearer()
+        if self.clk.min() == 43:
+            self.num2.harom()
+        if self.clk.min() == 44:
+            self.num2.clearer()
+        if self.clk.min() == 44:
+            self.num2.negy()
+        if self.clk.min() == 45:
+            self.num2.clearer()
+        if self.clk.min() == 45:
+            self.num2.ot()
+        if self.clk.min() == 46:
+            self.num2.clearer()
+        if self.clk.min() == 46:
+            self.num2.hat()
+        if self.clk.min() == 47:
+            self.num2.clearer()
+        if self.clk.min() == 47:
+            self.num2.het()
+        if self.clk.min() == 48:
+            self.num2.clearer()
+        if self.clk.min() == 48:
+            self.num2.nyolc()
+        if self.clk.min() == 49:
+            self.num2.clearer()
+        if self.clk.min() == 49:
+            self.num2.kilenc()
+        if self.clk.min() == 50:
+            self.num2.clearer()
+        if self.clk.min() == 50:
+            self.num2.nulla()
+        if self.clk.min() == 51:
+            self.num2.clearer()
+        if self.clk.min() == 51:
+            self.num2.egy()
+        if self.clk.min() == 52:
+            self.num2.clearer()
+        if self.clk.min() == 52:
+            self.num2.ketto()
+        if self.clk.min() == 53:
+            self.num2.clearer()
+        if self.clk.min() == 53:
+            self.num2.harom()
+        if self.clk.min() == 54:
+            self.num2.clearer()
+        if self.clk.min() == 54:
+            self.num2.negy()
+        if self.clk.min() == 55:
+            self.num2.clearer()
+        if self.clk.min() == 55:
+            self.num2.ot()
+        if self.clk.min() == 56:
+            self.num2.clearer()
+        if self.clk.min() == 56:
+            self.num2.hat()
+        if self.clk.min() == 57:
+            self.num2.clearer()
+        if self.clk.min() == 57:
+            self.num2.het()
+        if self.clk.min() == 58:
+            self.num2.clearer()
+        if self.clk.min() == 58:
+            self.num2.nyolc()
+        if self.clk.min() == 59:
+            self.num2.clearer()
+        if self.clk.min() == 59:
+            self.num2.kilenc()
 
     def __init__(self):
         self.scr.bgcolor('black')

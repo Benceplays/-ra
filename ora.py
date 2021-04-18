@@ -21,7 +21,7 @@ class Kattintgato:
         self.printToConsole()
         self.masodperc1()
         self.masodperc2()
-        self.kirajzoloperc()
+
 
     def pozicio(self):
         self.secturtle1.penup()
@@ -261,16 +261,7 @@ class Kattintgato:
 
 
     def writeMin(self):
-        self.minturtle.clear()
-        self.minturtle.reset()
-        self.minturtle.penup()
-        self.minturtle.setheading(90)
-        self.minturtle.forward(180)
-        self.minturtle.right(90 + 3)
-        self.minturtle.pendown()
-        for i in range(self.clk.min()):
-            self.minturtle.forward(18.849555921538759430775860299677)
-            self.minturtle.right(6)
+        self.kirajzoloperc()
 
     def writeHour(self):
         self.hourturtle.clear()

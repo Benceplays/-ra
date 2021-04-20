@@ -68,6 +68,26 @@ class Numbers4:
         self.szamjegyvalto()
         self.ketto()
 
+    def huszonegy(self):
+        self.egy()
+        self.szamjegyvalto()
+        self.ketto()
+
+    def huszonketto(self):
+        self.ketto()
+        self.szamjegyvalto()
+        self.ketto()
+
+    def huszonharom(self):
+        self.harom()
+        self.szamjegyvalto()
+        self.ketto()
+
+    def huszonnegy(self):
+        self.negy()
+        self.szamjegyvalto()
+        self.ketto()
+
     def nulla(self):
         self.tizespoz()
         self.digi1()

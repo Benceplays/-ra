@@ -5,12 +5,14 @@ from Numbers import *
 from Numbers2 import *
 from Numbers3 import *
 from Numbers5 import *
+from Numbers4 import *
 
 class Kattintgato:
     num = Numbers()
     num1 = Numbers2()
     num2 = Numbers3()
     num4 = Numbers5()
+    num3 = Numbers4()
     scr = Screen()
     t = Turtle()
     clk = Clock(scr)
@@ -266,17 +268,6 @@ class Kattintgato:
         self.kirajzoloperc()
         self.kirajzoloperc2szam()
 
-    def writeHour(self):
-        self.hourturtle.clear()
-        self.hourturtle.reset()
-        self.hourturtle.penup()
-        self.hourturtle.setheading(90)
-        self.hourturtle.forward(160)
-        self.hourturtle.right(90 + 3)
-        self.hourturtle.pendown()
-        for i in range(self.clk.hour12() * 6):
-            self.hourturtle.forward(83.775804095727819692337156887453 / 6)
-            self.hourturtle.right(30 / 6)
 
     def kirajzoloperc2szam(self):
         if self.clk.min() == 0:
@@ -759,6 +750,169 @@ class Kattintgato:
             self.num2.clearer()
         if self.clk.min() == 59:
             self.num2.kilenc()
+
+    def writeHour(self):
+        self.kirajzoloora()
+        self.hourturtle.penup()
+        self.hourturtle.backward(200)
+        self.hourturtle.pendown()
+
+    def kirajzioloora2(self, x):
+        if self.clk.hour24() != x:
+            self.num.clearer()
+        if self.clk.hour24() == x:
+            if x == 0:
+                self.num3.nulla()
+            if x == 1:
+                self.num3.egy()
+            if x == 2:
+                self.num3.ketto()
+            if x == 3:
+                self.num3.harom()
+            if x == 4:
+                self.num3.negy()
+            if x == 5:
+                self.num3.ot()
+            if x == 6:
+                self.num3.hat()
+            if x == 7:
+                self.num3.het()
+            if x == 8:
+                self.num3.nyolc()
+            if x == 9:
+                self.num3.kilenc()
+            if x == 10:
+                self.num3.tiz()
+            if x == 11:
+                self.num3.tizenegy()
+            if x == 12:
+                self.num3.tizenketto()
+            if x == 13:
+                self.num3.tizenharom()
+            if x == 14:
+                self.num3.tizennegy()
+            if x == 15:
+                self.num3.tizenot()
+            if x == 16:
+                self.num3.tizenhat()
+            if x == 17:
+                self.num3.tizenhet()
+            if x == 18:
+                self.num3.tizennyolc()
+            if x == 19:
+                self.num3.tizenkilenc()
+            if x == 20:
+                self.num3.husz()
+            if x == 21:
+                self.num3.huszonegy()
+            if x == 22:
+                self.num3.huszonketto()
+            if x == 23:
+                self.num3.huszonharom()
+            if x == 24:
+                self.num3.huszonnegy()
+
+    def kirajzoloora(self):
+        if self.clk.hour24() == 0:
+            self.num3.clearer()
+        if self.clk.hour24() == 0:
+            self.num3.nulla()
+        if self.clk.hour24() == 1:
+            self.num3.clearer()
+        if self.clk.hour24() == 1:
+            self.num3.egy()
+        if self.clk.hour24() == 2:
+            self.num3.clearer()
+        if self.clk.hour24() == 2:
+            self.num3.ketto()
+        if self.clk.hour24() == 3:
+            self.num3.clearer()
+        if self.clk.hour24() == 3:
+            self.num3.harom()
+        if self.clk.hour24() == 4:
+            self.num3.clearer()
+        if self.clk.hour24() == 4:
+            self.num3.negy()
+        if self.clk.hour24() == 5:
+            self.num3.clearer()
+        if self.clk.hour24() == 5:
+            self.num3.ot()
+        if self.clk.hour24() == 6:
+            self.num3.clearer()
+        if self.clk.hour24() == 6:
+            self.num3.hat()
+        if self.clk.hour24() == 7:
+            self.num3.clearer()
+        if self.clk.hour24() == 7:
+            self.num3.het()
+        if self.clk.hour24() == 8:
+            self.num3.clearer()
+        if self.clk.hour24() == 8:
+            self.num3.nyolc()
+        if self.clk.hour24() == 9:
+            self.num3.clearer()
+        if self.clk.hour24() == 9:
+            self.num3.kilenc()
+        if self.clk.hour24() == 10:
+            self.num3.clearer()
+        if self.clk.hour24() == 10:
+            self.num3.nulla()
+        if self.clk.hour24() == 11:
+            self.num3.clearer()
+        if self.clk.hour24() == 11:
+            self.num3.egy()
+        if self.clk.hour24() == 12:
+            self.num3.clearer()
+        if self.clk.hour24() == 12:
+            self.num3.ketto()
+        if self.clk.hour24() == 13:
+            self.num3.clearer()
+        if self.clk.hour24() == 13:
+            self.num3.harom()
+        if self.clk.hour24() == 14:
+            self.num3.clearer()
+        if self.clk.hour24() == 14:
+            self.num3.negy()
+        if self.clk.hour24() == 15:
+            self.num3.clearer()
+        if self.clk.hour24() == 15:
+            self.num3.ot()
+        if self.clk.hour24() == 16:
+            self.num3.clearer()
+        if self.clk.hour24() == 16:
+            self.num3.hat()
+        if self.clk.hour24() == 17:
+            self.num3.clearer()
+        if self.clk.hour24() == 17:
+            self.num3.het()
+        if self.clk.hour24() == 18:
+            self.num3.clearer()
+        if self.clk.hour24() == 18:
+            self.num3.nyolc()
+        if self.clk.hour24() == 19:
+            self.num3.clearer()
+        if self.clk.hour24() == 19:
+            self.num3.kilenc()
+        if self.clk.hour24() == 20:
+            self.num3.clearer()
+        if self.clk.hour24() == 20:
+            self.num3.nulla()
+        if self.clk.hour24() == 21:
+            self.num3.clearer()
+        if self.clk.hour24() == 21:
+            self.num3.egy()
+        if self.clk.hour24() == 22:
+            self.num3.clearer()
+        if self.clk.hour24() == 22:
+            self.num3.ketto()
+        if self.clk.hour24() == 23:
+            self.num3.clearer()
+        if self.clk.hour24() == 23:
+            self.num3.harom()
+        if self.clk.hour24() == 24:
+            self.num3.clearer()
+        if self.clk.hour24() == 24:
+            self.num3.negy()
 
     def __init__(self):
         self.scr.bgcolor('black')

@@ -266,7 +266,7 @@ class Kattintgato:
 
     def writeMin(self):
         self.kirajzoloperc()
-        self.kirajzoloperc2szam()
+
 
 
     def kirajzoloperc2szam(self):
@@ -555,201 +555,201 @@ class Kattintgato:
         if self.clk.min() == 10:
             self.num2.clearer()
         if self.clk.min() == 10:
-            self.num2.nulla()
+            self.num2.tiz()
         if self.clk.min() == 11:
             self.num2.clearer()
         if self.clk.min() == 11:
-            self.num2.egy()
+            self.num2.tizenegy()
         if self.clk.min() == 12:
             self.num2.clearer()
         if self.clk.min() == 12:
-            self.num2.ketto()
+            self.num2.tizenketto()
         if self.clk.min() == 13:
             self.num2.clearer()
         if self.clk.min() == 13:
-            self.num2.harom()
+            self.num2.tizenharom()
         if self.clk.min() == 14:
             self.num2.clearer()
         if self.clk.min() == 14:
-            self.num2.negy()
+            self.num2.tizennegy()
         if self.clk.min() == 15:
             self.num2.clearer()
         if self.clk.min() == 15:
-            self.num2.ot()
+            self.num2.tizenot()
         if self.clk.min() == 16:
             self.num2.clearer()
         if self.clk.min() == 16:
-            self.num2.hat()
+            self.num2.tizenhat()
         if self.clk.min() == 17:
             self.num2.clearer()
         if self.clk.min() == 17:
-            self.num2.het()
+            self.num2.tizenhet()
         if self.clk.min() == 18:
             self.num2.clearer()
         if self.clk.min() == 18:
-            self.num2.nyolc()
+            self.num2.tizennyolc()
         if self.clk.min() == 19:
             self.num2.clearer()
         if self.clk.min() == 19:
-            self.num2.kilenc()
+            self.num2.tizenkilenc()
         if self.clk.min() == 20:
             self.num2.clearer()
         if self.clk.min() == 20:
-            self.num2.nulla()
+            self.num2.husz()
         if self.clk.min() == 21:
             self.num2.clearer()
         if self.clk.min() == 21:
-            self.num2.egy()
+            self.num2.huszonegy()
         if self.clk.min() == 22:
             self.num2.clearer()
         if self.clk.min() == 22:
-            self.num2.ketto()
+            self.num2.huszonketto()
         if self.clk.min() == 23:
             self.num2.clearer()
         if self.clk.min() == 23:
-            self.num2.harom()
+            self.num2.huszonharom()
         if self.clk.min() == 24:
             self.num2.clearer()
         if self.clk.min() == 24:
-            self.num2.negy()
+            self.num2.huszonnegy()
         if self.clk.min() == 25:
             self.num2.clearer()
         if self.clk.min() == 25:
-            self.num2.ot()
+            self.num2.huszonot()
         if self.clk.min() == 26:
             self.num2.clearer()
         if self.clk.min() == 26:
-            self.num2.hat()
+            self.num2.huszonhat()
         if self.clk.min() == 27:
             self.num2.clearer()
         if self.clk.min() == 27:
-            self.num2.het()
+            self.num2.huszonhet()
         if self.clk.min() == 28:
             self.num2.clearer()
         if self.clk.min() == 28:
-            self.num2.nyolc()
+            self.num2.huszonnyolc()
         if self.clk.min() == 29:
             self.num2.clearer()
         if self.clk.min() == 29:
-            self.num2.kilenc()
+            self.num2.huszonkilenc()
         if self.clk.min() == 30:
             self.num2.clearer()
         if self.clk.min() == 30:
-            self.num2.nulla()
+            self.num2.harminc()
         if self.clk.min() == 31:
             self.num2.clearer()
         if self.clk.min() == 31:
-            self.num2.egy()
+            self.num2.harmincegy()
         if self.clk.min() == 32:
             self.num2.clearer()
         if self.clk.min() == 32:
-            self.num2.ketto()
+            self.num2.harmincketto()
         if self.clk.min() == 33:
             self.num2.clearer()
         if self.clk.min() == 33:
-            self.num2.harom()
+            self.num2.harminncharom()
         if self.clk.min() == 34:
             self.num2.clearer()
         if self.clk.min() == 34:
-            self.num2.negy()
+            self.num2.harmincnegy()
         if self.clk.min() == 35:
             self.num2.clearer()
         if self.clk.min() == 35:
-            self.num2.ot()
+            self.num2.harmincot()
         if self.clk.min() == 36:
             self.num2.clearer()
         if self.clk.min() == 36:
-            self.num2.hat()
+            self.num2.harminchat()
         if self.clk.min() == 37:
             self.num2.clearer()
         if self.clk.min() == 37:
-            self.num2.het()
+            self.num2.harminchet()
         if self.clk.min() == 38:
             self.num2.clearer()
         if self.clk.min() == 38:
-            self.num2.nyolc()
+            self.num2.harmincnyolc()
         if self.clk.min() == 39:
             self.num2.clearer()
         if self.clk.min() == 39:
-            self.num2.kilenc()
+            self.num2.harminckilenc()
         if self.clk.min() == 40:
-            self.num2.nulla()
+            self.num2.negyven()
         if self.clk.min() == 41:
             self.num2.clearer()
         if self.clk.min() == 41:
-            self.num2.egy()
+            self.num2.negyvenegy()
         if self.clk.min() == 42:
             self.num2.clearer()
         if self.clk.min() == 42:
-            self.num2.ketto()
+            self.num2.negyvenketto()
         if self.clk.min() == 43:
             self.num2.clearer()
         if self.clk.min() == 43:
-            self.num2.harom()
+            self.num2.negyvenharom()
         if self.clk.min() == 44:
             self.num2.clearer()
         if self.clk.min() == 44:
-            self.num2.negy()
+            self.num2.negyvennegy()
         if self.clk.min() == 45:
             self.num2.clearer()
         if self.clk.min() == 45:
-            self.num2.ot()
+            self.num2.negyvenot()
         if self.clk.min() == 46:
             self.num2.clearer()
         if self.clk.min() == 46:
-            self.num2.hat()
+            self.num2.negyvenhat()
         if self.clk.min() == 47:
             self.num2.clearer()
         if self.clk.min() == 47:
-            self.num2.het()
+            self.num2.negyvenhet()
         if self.clk.min() == 48:
             self.num2.clearer()
         if self.clk.min() == 48:
-            self.num2.nyolc()
+            self.num2.negyvennyolc()
         if self.clk.min() == 49:
             self.num2.clearer()
         if self.clk.min() == 49:
-            self.num2.kilenc()
+            self.num2.negyvenkilenc()
         if self.clk.min() == 50:
             self.num2.clearer()
         if self.clk.min() == 50:
-            self.num2.nulla()
+            self.num2.otven()
         if self.clk.min() == 51:
             self.num2.clearer()
         if self.clk.min() == 51:
-            self.num2.egy()
+            self.num2.otvenegy()
         if self.clk.min() == 52:
             self.num2.clearer()
         if self.clk.min() == 52:
-            self.num2.ketto()
+            self.num2.otvenketto()
         if self.clk.min() == 53:
             self.num2.clearer()
         if self.clk.min() == 53:
-            self.num2.harom()
+            self.num2.otvenharom()
         if self.clk.min() == 54:
             self.num2.clearer()
         if self.clk.min() == 54:
-            self.num2.negy()
+            self.num2.otvennegy()
         if self.clk.min() == 55:
             self.num2.clearer()
         if self.clk.min() == 55:
-            self.num2.ot()
+            self.num2.otvenot()
         if self.clk.min() == 56:
             self.num2.clearer()
         if self.clk.min() == 56:
-            self.num2.hat()
+            self.num2.otvenhat()
         if self.clk.min() == 57:
             self.num2.clearer()
         if self.clk.min() == 57:
-            self.num2.het()
+            self.num2.otvenhet()
         if self.clk.min() == 58:
             self.num2.clearer()
         if self.clk.min() == 58:
-            self.num2.nyolc()
+            self.num2.otvennyolc()
         if self.clk.min() == 59:
             self.num2.clearer()
         if self.clk.min() == 59:
-            self.num2.kilenc()
+            self.num2.otvenkilenc()
 
     def writeHour(self):
         self.kirajzoloora()

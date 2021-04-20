@@ -4,11 +4,13 @@ from j_clock import *
 from Numbers import *
 from Numbers2 import *
 from Numbers3 import *
+from Numbers5 import *
 
 class Kattintgato:
     num = Numbers()
     num1 = Numbers2()
     num2 = Numbers3()
+    num4 = Numbers5()
     scr = Screen()
     t = Turtle()
     clk = Clock(scr)
@@ -262,6 +264,7 @@ class Kattintgato:
 
     def writeMin(self):
         self.kirajzoloperc()
+        self.kirajzoloperc2szam()
 
     def writeHour(self):
         self.hourturtle.clear()
@@ -275,6 +278,245 @@ class Kattintgato:
             self.hourturtle.forward(83.775804095727819692337156887453 / 6)
             self.hourturtle.right(30 / 6)
 
+    def kirajzoloperc2szam(self):
+        if self.clk.min() == 0:
+            self.num4.clearer()
+        if self.clk.min() == 0:
+            self.num4.nulla()
+        if self.clk.min() == 1:
+            self.num4.clearer()
+        if self.clk.min() == 1:
+            self.num4.nulla()
+        if self.clk.min() == 2:
+            self.num4.clearer()
+        if self.clk.min() == 2:
+            self.num4.nulla()
+        if self.clk.min() == 3:
+            self.num4.clearer()
+        if self.clk.min() == 3:
+            self.num4.nulla()
+        if self.clk.min() == 4:
+            self.num4.nulla()
+        if self.clk.min() == 4:
+            self.num4.nulla()
+        if self.clk.min() == 5:
+            self.num4.clearer()
+        if self.clk.min() == 5:
+            self.num4.nulla()
+        if self.clk.min() == 6:
+            self.num4.clearer()
+        if self.clk.min() == 6:
+            self.num4.nulla()
+        if self.clk.min() == 7:
+            self.num4.clearer()
+        if self.clk.min() == 7:
+            self.num4.nulla()
+        if self.clk.min() == 8:
+            self.num4.clearer()
+        if self.clk.min() == 8:
+            self.num4.nulla()
+        if self.clk.min() == 9:
+            self.num4.clearer()
+        if self.clk.min() == 9:
+            self.num4.nulla()
+        if self.clk.min() == 10:
+            self.num4.clearer()
+        if self.clk.min() == 10:
+            self.num4.egy()
+        if self.clk.min() == 11:
+            self.num4.clearer()
+        if self.clk.min() == 11:
+            self.num4.egy()
+        if self.clk.min() == 12:
+            self.num4.clearer()
+        if self.clk.min() == 12:
+            self.num4.egy()
+        if self.clk.min() == 13:
+            self.num4.clearer()
+        if self.clk.min() == 13:
+            self.num4.egy()
+        if self.clk.min() == 14:
+            self.num4.clearer()
+        if self.clk.min() == 14:
+            self.num4.egy()
+        if self.clk.min() == 15:
+            self.num4.clearer()
+        if self.clk.min() == 15:
+            self.num4.egy()
+        if self.clk.min() == 16:
+            self.num4.clearer()
+        if self.clk.min() == 16:
+            self.num4.egy()
+        if self.clk.min() == 17:
+            self.num4.clearer()
+        if self.clk.min() == 17:
+            self.num4.egy()
+        if self.clk.min() == 18:
+            self.num4.clearer()
+        if self.clk.min() == 18:
+            self.num4.egy()
+        if self.clk.min() == 19:
+            self.num4.clearer()
+        if self.clk.min() == 19:
+            self.num4.egy()
+        if self.clk.min() == 20:
+            self.num4.clearer()
+        if self.clk.min() == 20:
+            self.num4.ketto()
+        if self.clk.min() == 21:
+            self.num4.clearer()
+        if self.clk.min() == 21:
+            self.num4.ketto()
+        if self.clk.min() == 22:
+            self.num4.clearer()
+        if self.clk.min() == 22:
+            self.num4.ketto()
+        if self.clk.min() == 23:
+            self.num4.clearer()
+        if self.clk.min() == 23:
+            self.num4.ketto()
+        if self.clk.min() == 24:
+            self.num4.clearer()
+        if self.clk.min() == 24:
+            self.num4.ketto()
+        if self.clk.min() == 25:
+            self.num4.clearer()
+        if self.clk.min() == 25:
+            self.num4.ketto()
+        if self.clk.min() == 26:
+            self.num4.clearer()
+        if self.clk.min() == 26:
+            self.num4.ketto()
+        if self.clk.min() == 27:
+            self.num4.clearer()
+        if self.clk.min() == 27:
+            self.num4.ketto()
+        if self.clk.min() == 28:
+            self.num4.clearer()
+        if self.clk.min() == 28:
+            self.num4.ketto()
+        if self.clk.min() == 29:
+            self.num4.clearer()
+        if self.clk.min() == 29:
+            self.num4.ketto()
+        if self.clk.min() == 30:
+            self.num4.clearer()
+        if self.clk.min() == 30:
+            self.num4.harom()
+        if self.clk.min() == 31:
+            self.num4.clearer()
+        if self.clk.min() == 31:
+            self.num4.harom()
+        if self.clk.min() == 32:
+            self.num4.clearer()
+        if self.clk.min() == 32:
+            self.num4.harom()
+        if self.clk.min() == 33:
+            self.num4.clearer()
+        if self.clk.min() == 33:
+            self.num4.harom()
+        if self.clk.min() == 34:
+            self.num4.clearer()
+        if self.clk.min() == 34:
+            self.num4.harom()
+        if self.clk.min() == 35:
+            self.num4.clearer()
+        if self.clk.min() == 35:
+            self.num4.harom()
+        if self.clk.min() == 36:
+            self.num4.clearer()
+        if self.clk.min() == 36:
+            self.num4.harom()
+        if self.clk.min() == 37:
+            self.num4.clearer()
+        if self.clk.min() == 37:
+            self.num4.harom()
+        if self.clk.min() == 38:
+            self.num4.clearer()
+        if self.clk.min() == 38:
+            self.num4.harom()
+        if self.clk.min() == 39:
+            self.num4.clearer()
+        if self.clk.min() == 39:
+            self.num4.harom()
+        if self.clk.min() == 40:
+            self.num4.negy()
+        if self.clk.min() == 41:
+            self.num4.clearer()
+        if self.clk.min() == 41:
+            self.num4.negy()
+        if self.clk.min() == 42:
+            self.num4.clearer()
+        if self.clk.min() == 42:
+            self.num4.negy()
+        if self.clk.min() == 43:
+            self.num4.clearer()
+        if self.clk.min() == 43:
+            self.num4.negy()
+        if self.clk.min() == 44:
+            self.num4.clearer()
+        if self.clk.min() == 44:
+            self.num4.negy()
+        if self.clk.min() == 45:
+            self.num4.clearer()
+        if self.clk.min() == 45:
+            self.num4.negy()
+        if self.clk.min() == 46:
+            self.num4.clearer()
+        if self.clk.min() == 46:
+            self.num4.negy()
+        if self.clk.min() == 47:
+            self.num4.clearer()
+        if self.clk.min() == 47:
+            self.num4.negy()
+        if self.clk.min() == 48:
+            self.num4.clearer()
+        if self.clk.min() == 48:
+            self.num4.negy()
+        if self.clk.min() == 49:
+            self.num4.clearer()
+        if self.clk.min() == 49:
+            self.num4.negy()
+        if self.clk.min() == 50:
+            self.num4.clearer()
+        if self.clk.min() == 50:
+            self.num4.ot()
+        if self.clk.min() == 51:
+            self.num4.clearer()
+        if self.clk.min() == 51:
+            self.num4.ot()
+        if self.clk.min() == 52:
+            self.num4.clearer()
+        if self.clk.min() == 52:
+            self.num4.ot()
+        if self.clk.min() == 53:
+            self.num4.clearer()
+        if self.clk.min() == 53:
+            self.num4.ot()
+        if self.clk.min() == 54:
+            self.num4.clearer()
+        if self.clk.min() == 54:
+            self.num4.ot()
+        if self.clk.min() == 55:
+            self.num4.clearer()
+        if self.clk.min() == 55:
+            self.num4.ot()
+        if self.clk.min() == 56:
+            self.num4.clearer()
+        if self.clk.min() == 56:
+            self.num4.ot()
+        if self.clk.min() == 57:
+            self.num4.clearer()
+        if self.clk.min() == 57:
+            self.num4.ot()
+        if self.clk.min() == 58:
+            self.num4.clearer()
+        if self.clk.min() == 58:
+            self.num4.ot()
+        if self.clk.min() == 59:
+            self.num4.clearer()
+        if self.clk.min() == 59:
+            self.num4.ot()
 
 
 

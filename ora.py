@@ -195,7 +195,7 @@ class Kattintgato:
             self.num1.clearer()
         if self.clk.sec() == 40:
             self.num1.negy()
-        if self.clk.sec() == 50:
+        if self.clk.sec() == 49:
             self.num1.clearer()
         if self.clk.sec() == 50:
             self.num1.ot()

@@ -430,7 +430,7 @@ class Numbers4:
 
     def tizespoz(self):
         self.secondsecturtle.penup()
-        self.secondsecturtle.backward(600)
+        self.secondsecturtle.backward(550)
         self.secondsecturtle.pendown()
 
 
@@ -1229,6 +1229,7 @@ class Numbers4:
         self.secondsecturtle.left(45)
 
     def hat(self):
+        self.tizespoz()
         self.half1()
         self.secondsecturtle.left(90)
         self.secondsecturtle.penup()
@@ -1416,6 +1417,7 @@ class Numbers4:
         self.secondsecturtle.left(45)
 
     def het(self):
+        self.tizespoz()
         self.nemtudom1()
         self.secondsecturtle.left(90)
         self.secondsecturtle.penup()
@@ -1602,6 +1604,7 @@ class Numbers4:
         self.secondsecturtle.left(45)
 
     def nyolc(self):
+        self.tizespoz()
         self.digt1()
         self.secondsecturtle.left(90)
         self.secondsecturtle.penup()
@@ -1789,6 +1792,7 @@ class Numbers4:
         self.secondsecturtle.left(45)
 
     def kilenc(self):
+        self.tizespoz()
         self.kapu1()
         self.secondsecturtle.left(90)
         self.secondsecturtle.penup()

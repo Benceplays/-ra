@@ -605,7 +605,7 @@ class Numbers3:
 
     def tizespoz(self):
         self.percturtle.penup()
-        self.percturtle.backward(600)
+        self.percturtle.backward(0)
         self.percturtle.pendown()
 
 
@@ -1404,6 +1404,7 @@ class Numbers3:
         self.percturtle.left(45)
 
     def hat(self):
+        self.tizespoz()
         self.half1()
         self.percturtle.left(90)
         self.percturtle.penup()
@@ -1591,6 +1592,7 @@ class Numbers3:
         self.percturtle.left(45)
 
     def het(self):
+        self.tizespoz()
         self.nemtudom1()
         self.percturtle.left(90)
         self.percturtle.penup()
@@ -1777,6 +1779,7 @@ class Numbers3:
         self.percturtle.left(45)
 
     def nyolc(self):
+        self.tizespoz()
         self.digt1()
         self.percturtle.left(90)
         self.percturtle.penup()

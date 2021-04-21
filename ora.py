@@ -29,7 +29,6 @@ class Kattintgato:
         self.secturtle.forward(300)
         self.secturtle.pendown()
 
-
     def pozicio(self):
         self.secturtle1.penup()
         self.secturtle1.backward(100)

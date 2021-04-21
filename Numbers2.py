@@ -410,7 +410,9 @@ class Numbers2:
 
     def tizespoz(self):
         self.t1.penup()
-        self.t1.backward(300)
+        self.t1.left(180)
+        self.t1.backward(450)
+        self.t1.left(180)
         self.t1.pendown()
 
 
@@ -1209,6 +1211,7 @@ class Numbers2:
         self.t1.left(45)
 
     def hat(self):
+        self.tizespoz()
         self.half1()
         self.t1.left(90)
         self.t1.penup()
@@ -1396,6 +1399,7 @@ class Numbers2:
         self.t1.left(45)
 
     def het(self):
+        self.tizespoz()
         self.nemtudom1()
         self.t1.left(90)
         self.t1.penup()
@@ -1582,6 +1586,7 @@ class Numbers2:
         self.t1.left(45)
 
     def nyolc(self):
+        self.tizespoz()
         self.digt1()
         self.t1.left(90)
         self.t1.penup()
@@ -1769,6 +1774,7 @@ class Numbers2:
         self.t1.left(45)
 
     def kilenc(self):
+        self.tizespoz()
         self.kapu1()
         self.t1.left(90)
         self.t1.penup()

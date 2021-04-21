@@ -69,6 +69,7 @@ class Numbers:
         self.ketto()
 
     def nulla(self):
+        self.tizespoz()
         self.digi1()
         self.t.left(90)
         self.t.penup()
@@ -107,6 +108,13 @@ class Numbers:
         self.t.pendown()
         self.digi7()
         self.reset()
+
+    def tizespoz(self):
+        self.t.penup()
+        self.t.left(180)
+        self.t.backward(700)
+        self.t.left(180)
+        self.t.pendown()
 
     def digi1(self):
         self.t.begin_fill()
@@ -408,6 +416,7 @@ class Numbers:
         self.t.pendown()
 
     def egy(self):
+        self.tizespoz()
         self.digit1()
         self.t.left(90)
         self.t.penup()
@@ -448,6 +457,7 @@ class Numbers:
         self.reset()
 
     def ketto(self):
+        self.tizespoz()
         self.szam1()
         self.t.left(90)
         self.t.penup()
@@ -635,6 +645,7 @@ class Numbers:
         self.t.left(45)
 
     def harom(self):
+        self.tizespoz()
         self.valami1()
         self.t.left(90)
         self.t.penup()
@@ -822,6 +833,7 @@ class Numbers:
         self.t.left(45)
 
     def negy(self):
+        self.tizespoz()
         self.abc1()
         self.t.left(90)
         self.t.penup()
@@ -1009,6 +1021,7 @@ class Numbers:
         self.t.left(45)
 
     def ot(self):
+        self.tizespoz()
         self.asd1()
         self.t.left(90)
         self.t.penup()
@@ -1196,6 +1209,7 @@ class Numbers:
         self.t.left(45)
 
     def hat(self):
+        self.tizespoz()
         self.half1()
         self.t.left(90)
         self.t.penup()
@@ -1383,6 +1397,7 @@ class Numbers:
         self.t.left(45)
 
     def het(self):
+        self.tizespoz()
         self.nemtudom1()
         self.t.left(90)
         self.t.penup()
@@ -1569,6 +1584,7 @@ class Numbers:
         self.t.left(45)
 
     def nyolc(self):
+        self.tizespoz()
         self.digt1()
         self.t.left(90)
         self.t.penup()
@@ -1756,6 +1772,7 @@ class Numbers:
         self.t.left(45)
 
     def kilenc(self):
+        self.tizespoz()
         self.kapu1()
         self.t.left(90)
         self.t.penup()

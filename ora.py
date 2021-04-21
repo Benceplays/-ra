@@ -861,6 +861,8 @@ class Kattintgato:
 
     def keret(self):
         self.t2.penup()
+        self.t2.pendown()
+        self.t2.penup()
         self.t2.left(90)
         self.t2.forward(250)
         self.t2.left(90)

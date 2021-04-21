@@ -6,7 +6,6 @@ from Numbers2 import *
 from Numbers3 import *
 from Numbers5 import *
 from Numbers4 import *
-from Numbers6 import *
 
 class Kattintgato:
     num = Numbers()
@@ -14,7 +13,6 @@ class Kattintgato:
     num2 = Numbers3()
     num4 = Numbers5()
     num3 = Numbers4()
-    num5 = Numbers6()
     scr = Screen()
     t = Turtle()
     clk = Clock(scr)

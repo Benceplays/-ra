@@ -894,7 +894,7 @@ class Kattintgato:
         self.t2.left(180)
         self.t2.forward(275)
         self.t2.left(90)
-        self.t2.forward(75)
+        self.t2.forward(50)
         self.t2.pendown()
         self.t2.pencolor("lime")
         for i in range(360):
@@ -905,7 +905,7 @@ class Kattintgato:
         self.t2.right(180)
         self.t2.forward(125)
         self.t2.left(90)
-        self.t2.forward(3)
+        self.t2.forward(8)
         self.t2.pendown()
         for i in range(360):
             self.t2.forward(1)
@@ -920,6 +920,10 @@ class Kattintgato:
         for i in range(360):
             self.t2.forward(1)
             self.t2.right(6)
+
+        self.t2.penup()
+        self.t2.pencolor("black")
+        self.t2.home()
 
 
 

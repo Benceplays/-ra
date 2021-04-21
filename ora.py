@@ -882,3 +882,4 @@ class Kattintgato:
             "Second: " + str(self.clk.leftNumber(self.clk.sec())) + "_" + str(self.clk.rightNumber(self.clk.sec())))
 
 Kattintgato()
+# ezt látod?

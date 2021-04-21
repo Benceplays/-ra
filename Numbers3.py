@@ -264,7 +264,7 @@ class Numbers3:
         self.ot()
 
     def nulla(self):
-        self.tizespoz()
+        self.mintizespoz()
         self.digi1()
         self.percturtle.left(90)
         self.percturtle.penup()
@@ -603,14 +603,14 @@ class Numbers3:
         self.percturtle.home()
         self.percturtle.pendown()
 
-    def tizespoz(self):
+    def mintizespoz(self):
         self.percturtle.penup()
-        self.percturtle.backward(0)
+        self.percturtle.backward(-200)
         self.percturtle.pendown()
 
 
     def egy(self):
-        self.tizespoz()
+        self.mintizespoz()
         self.digit1()
         self.percturtle.left(90)
         self.percturtle.penup()
@@ -651,7 +651,7 @@ class Numbers3:
         self.reset()
 
     def ketto(self):
-        self.tizespoz()
+        self.mintizespoz()
         self.szam1()
         self.percturtle.left(90)
         self.percturtle.penup()
@@ -840,7 +840,7 @@ class Numbers3:
         self.percturtle.left(45)
 
     def harom(self):
-        self.tizespoz()
+        self.mintizespoz()
         self.valami1()
         self.percturtle.left(90)
         self.percturtle.penup()
@@ -1028,7 +1028,7 @@ class Numbers3:
         self.percturtle.left(45)
 
     def negy(self):
-        self.tizespoz()
+        self.mintizespoz()
         self.abc1()
         self.percturtle.left(90)
         self.percturtle.penup()
@@ -1216,7 +1216,7 @@ class Numbers3:
         self.percturtle.left(45)
 
     def ot(self):
-        self.tizespoz()
+        self.mintizespoz()
         self.asd1()
         self.percturtle.left(90)
         self.percturtle.penup()
@@ -1404,7 +1404,7 @@ class Numbers3:
         self.percturtle.left(45)
 
     def hat(self):
-        self.tizespoz()
+        self.mintizespoz()
         self.half1()
         self.percturtle.left(90)
         self.percturtle.penup()
@@ -1592,7 +1592,7 @@ class Numbers3:
         self.percturtle.left(45)
 
     def het(self):
-        self.tizespoz()
+        self.mintizespoz()
         self.nemtudom1()
         self.percturtle.left(90)
         self.percturtle.penup()
@@ -1779,7 +1779,7 @@ class Numbers3:
         self.percturtle.left(45)
 
     def nyolc(self):
-        self.tizespoz()
+        self.mintizespoz()
         self.digt1()
         self.percturtle.left(90)
         self.percturtle.penup()
@@ -1967,7 +1967,7 @@ class Numbers3:
         self.percturtle.left(45)
 
     def kilenc(self):
-        self.tizespoz()
+        self.mintizespoz()
         self.kapu1()
         self.percturtle.left(90)
         self.percturtle.penup()

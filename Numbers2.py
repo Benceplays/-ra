@@ -68,6 +68,14 @@ class Numbers2:
         self.szamjegyvalto()
         self.ketto()
 
+    def tizespoz(self):
+        self.t1.penup()
+        self.t1.left(180)
+        self.t1.backward(500)
+        self.t1.left(180)
+        self.t1.pendown()
+
+
     def nulla(self):
         self.tizespoz()
         self.digi1()
@@ -406,13 +414,6 @@ class Numbers2:
     def reset(self):
         self.t1.penup()
         self.t1.home()
-        self.t1.pendown()
-
-    def tizespoz(self):
-        self.t1.penup()
-        self.t1.left(180)
-        self.t1.backward(450)
-        self.t1.left(180)
         self.t1.pendown()
 
 

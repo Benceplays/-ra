@@ -15,6 +15,7 @@ class Kattintgato:
     num3 = Numbers4()
     scr = Screen()
     t = Turtle()
+    t2 = Turtle()
     clk = Clock(scr)
     secturtle1 = Turtle(shape="turtle")
     secturtle = Turtle(shape="turtle")
@@ -195,7 +196,7 @@ class Kattintgato:
             self.num1.clearer()
         if self.clk.sec() == 40:
             self.num1.negy()
-        if self.clk.sec() == 49:
+        if self.clk.sec() == 50:
             self.num1.clearer()
         if self.clk.sec() == 50:
             self.num1.ot()
@@ -960,18 +961,47 @@ class Kattintgato:
         if self.clk.hour24() == 24:
             self.num3.negy()
 
+    def keret(self):
+        self.t2.penup()
+        self.t2.left(90)
+        self.t2.forward(250)
+        self.t2.left(90)
+        self.t2.pendown()
+        self.t2.begin_fill()
+        self.t2.fillcolor("black")
+        self.t2.width(20)
+        self.t2.forward(700)
+        self.t2.circle(250, 180)
+        self.t2.forward(1650)
+        self.t2.circle(250, 180)
+        self.t2.forward(950)
+        self.t2.end_fill()
+        self.t2.penup()
+        self.t2.pencolor("gray")
+        self.t2.right(90)
+        self.t2.forward(18)
+        self.t2.left(90)
+        self.t2.pendown()
+        self.t2.forward(700)
+        self.t2.circle(260, 180)
+        self.t2.forward(1650)
+        self.t2.circle(260, 180)
+        self.t2.forward(950)
+        self.t2.penup()
+        self.t2.home()
+
     def __init__(self):
-        self.scr.bgcolor('black')
+        self.scr.bgcolor("orange")
         self.secturtle._delay(0)
         self.secturtle.speed(0)
         self.minturtle._delay(0)
         self.minturtle.speed(0)
         self.hourturtle._delay(0)
         self.hourturtle.speed(0)
-        self.pozicio()
         self.clk.setOnSecondChangeListener(self.writeSec)
         self.clk.setOnMinuteChangeListener(self.writeMin)
         self.clk.setOnHourChangeListener(self.writeHour)
+        self.keret()
         self.printToConsole()
         self.scr.mainloop()
 

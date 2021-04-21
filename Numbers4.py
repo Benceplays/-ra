@@ -430,7 +430,7 @@ class Numbers4:
 
     def tizespoz(self):
         self.secondsecturtle.penup()
-        self.secondsecturtle.backward(550)
+        self.secondsecturtle.backward(400)
         self.secondsecturtle.pendown()
 
 

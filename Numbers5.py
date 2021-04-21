@@ -410,7 +410,7 @@ class Numbers5:
 
     def minpos(self):
         self.secondminturtle.penup()
-        self.secondminturtle.backward(1200)
+        self.secondminturtle.backward(900)
         self.secondminturtle.pendown()
 
 
@@ -1209,6 +1209,7 @@ class Numbers5:
         self.secondminturtle.left(45)
 
     def hat(self):
+        self.minpos()
         self.half1()
         self.secondminturtle.left(90)
         self.secondminturtle.penup()
@@ -1396,6 +1397,7 @@ class Numbers5:
         self.secondminturtle.left(45)
 
     def het(self):
+        self.minpos()
         self.nemtudom1()
         self.secondminturtle.left(90)
         self.secondminturtle.penup()
@@ -1582,6 +1584,7 @@ class Numbers5:
         self.secondminturtle.left(45)
 
     def nyolc(self):
+        self.minpos()
         self.digt1()
         self.secondminturtle.left(90)
         self.secondminturtle.penup()
@@ -1769,6 +1772,7 @@ class Numbers5:
         self.secondminturtle.left(45)
 
     def kilenc(self):
+        self.minpos()
         self.kapu1()
         self.secondminturtle.left(90)
         self.secondminturtle.penup()

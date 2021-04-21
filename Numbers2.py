@@ -71,7 +71,7 @@ class Numbers2:
     def tizespoz(self):
         self.t1.penup()
         self.t1.left(180)
-        self.t1.backward(500)
+        self.t1.backward(425)
         self.t1.left(180)
         self.t1.pendown()
 

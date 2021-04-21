@@ -10,7 +10,7 @@ class Numbers4:
     def szamjegyvalto(self):
         self.secondsecturtle.home()
         self.secondsecturtle.penup()
-        self.secondsecturtle.backward(300)
+        self.secondsecturtle.backward(275)
         self.secondsecturtle.pendown()
 
     def tiz(self):
@@ -430,7 +430,7 @@ class Numbers4:
 
     def tizespoz(self):
         self.secondsecturtle.penup()
-        self.secondsecturtle.backward(400)
+        self.secondsecturtle.backward(500)
         self.secondsecturtle.pendown()
 
 

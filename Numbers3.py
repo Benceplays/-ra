@@ -10,7 +10,7 @@ class Numbers3:
     def szamjegyvalto(self):
         self.percturtle.home()
         self.percturtle.penup()
-        self.percturtle.backward(300)
+        self.percturtle.backward(275)
         self.percturtle.pendown()
 
     def tiz(self):
@@ -605,7 +605,7 @@ class Numbers3:
 
     def mintizespoz(self):
         self.percturtle.penup()
-        self.percturtle.backward(-200)
+        self.percturtle.backward(-100)
         self.percturtle.pendown()
 
 

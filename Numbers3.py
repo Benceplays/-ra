@@ -605,7 +605,7 @@ class Numbers3:
 
     def mintizespoz(self):
         self.percturtle.penup()
-        self.percturtle.backward(-100)
+        self.percturtle.backward(-250)
         self.percturtle.pendown()
 
 

@@ -410,7 +410,7 @@ class Numbers5:
 
     def minpos(self):
         self.secondminturtle.penup()
-        self.secondminturtle.backward(900)
+        self.secondminturtle.backward(875)
         self.secondminturtle.pendown()
 
 

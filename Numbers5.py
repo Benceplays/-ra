@@ -2,7 +2,7 @@ from turtle import *
 from datetime import *
 from j_clock import *
 class Numbers5:
-    secturtle2 : Turtle()
+    secturtle2 = Turtle()
 
 
     def szamjegyvalto(self):
@@ -305,9 +305,9 @@ class Numbers5:
     def tizespoz(self):
         self.secturtle2.penup()
         self.secturtle2.left(180)
-        self.secturtle2.backward(740)
+        self.secturtle2.backward(0)
         self.secturtle2.left(270)
-        self.secturtle2.backward(110)
+        self.secturtle2.backward(0)
         self.secturtle2.left(270)
         self.secturtle2.pendown()
 

@@ -24,9 +24,6 @@ class Kattintgato:
     def writeSec(self):
         self.printToConsole()
         self.masodperc1()
-        self.secturtle.penup()
-        self.secturtle.forward(300)
-        self.secturtle.pendown()
         self.masodperc2()
 
     def pozicio(self):
@@ -36,29 +33,29 @@ class Kattintgato:
 
     def masodperc2(self):
         if self.clk.sec() == 0:
-            self.num4.clearer()
+            self.num1.clearer()
         if self.clk.sec() == 0:
-            self.num4.nulla()
+            self.num1.nulla()
         if self.clk.sec() == 10:
-            self.num4.clearer()
+            self.num1.clearer()
         if self.clk.sec() == 10:
-            self.num4.egy()
+            self.num1.egy()
         if self.clk.sec() == 20:
-            self.num4.clearer()
+            self.num1.clearer()
         if self.clk.sec() == 20:
-            self.num4.ketto()
+            self.num1.ketto()
         if self.clk.sec() == 30:
-            self.num4.clearer()
+            self.num1.clearer()
         if self.clk.sec() == 30:
-            self.num4.harom()
+            self.num1.harom()
         if self.clk.sec() == 40:
-            self.num4.clearer()
+            self.num1.clearer()
         if self.clk.sec() == 40:
-            self.num4.negy()
+            self.num1.negy()
         if self.clk.sec() == 50:
-            self.num4.clearer()
+            self.num1.clearer()
         if self.clk.sec() == 50:
-            self.num4.ot()
+            self.num1.ot()
 
     def masodperc1(self):
         if self.clk.sec() == 0:

@@ -4,14 +4,12 @@ from j_clock import *
 from Numbers import *
 from Numbers2 import *
 from Numbers3 import *
-from Numbers5 import *
 from Numbers4 import *
 
 class Kattintgato:
     num = Numbers()
     num1 = Numbers2()
     num2 = Numbers3()
-    num4 = Numbers5()
     num3 = Numbers4()
     scr = Screen()
     t = Turtle()

@@ -8,7 +8,7 @@ class Numbers:
     def szamjegyvalto(self):
         self.t.home()
         self.t.penup()
-        self.t.backward(100)
+        self.t.backward(150)
         self.t.pendown()
 
     def tiz(self):

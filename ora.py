@@ -549,43 +549,43 @@ class Kattintgato:
         if self.clk.hour24() == 0:
             self.num3.clearer()
         if self.clk.hour24() == 0:
-            self.num3.nulla()
+            self.num3.nulnul()
         if self.clk.hour24() == 1:
             self.num3.clearer()
         if self.clk.hour24() == 1:
-            self.num3.egy()
+            self.num3. nulegy()
         if self.clk.hour24() == 2:
             self.num3.clearer()
         if self.clk.hour24() == 2:
-            self.num3.ketto()
+            self.num3.nulketto()
         if self.clk.hour24() == 3:
             self.num3.clearer()
         if self.clk.hour24() == 3:
-            self.num3.harom()
+            self.num3.nulharom()
         if self.clk.hour24() == 4:
             self.num3.clearer()
         if self.clk.hour24() == 4:
-            self.num3.negy()
+            self.num3.nulnegy()
         if self.clk.hour24() == 5:
             self.num3.clearer()
         if self.clk.hour24() == 5:
-            self.num3.ot()
+            self.num3.nulot()
         if self.clk.hour24() == 6:
             self.num3.clearer()
         if self.clk.hour24() == 6:
-            self.num3.hat()
+            self.num3.nulhat()
         if self.clk.hour24() == 7:
             self.num3.clearer()
         if self.clk.hour24() == 7:
-            self.num3.het()
+            self.num3.nulhet()
         if self.clk.hour24() == 8:
             self.num3.clearer()
         if self.clk.hour24() == 8:
-            self.num3.nyolc()
+            self.num3.nulnyolc()
         if self.clk.hour24() == 9:
             self.num3.clearer()
         if self.clk.hour24() == 9:
-            self.num3.kilenc()
+            self.num3.nulkilenc()
         if self.clk.hour24() == 10:
             self.num3.clearer()
         if self.clk.hour24() == 10:

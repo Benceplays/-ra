@@ -66,6 +66,201 @@ class Numbers2:
         self.szamjegyvalto()
         self.ketto()
 
+    def huszonegy(self):
+        self.egy()
+        self.szamjegyvalto()
+        self.ketto()
+
+    def huszonketto(self):
+        self.ketto()
+        self.szamjegyvalto()
+        self.ketto()
+
+    def huszonharom(self):
+        self.harom()
+        self.szamjegyvalto()
+        self.ketto()
+
+    def huszonnegy(self):
+        self.negy()
+        self.szamjegyvalto()
+        self.ketto()
+
+    def huszonot(self):
+        self.ot()
+        self.szamjegyvalto()
+        self.ketto()
+
+    def huszonhat(self):
+        self.hat()
+        self.szamjegyvalto()
+        self.ketto()
+
+    def huszonhet(self):
+        self.het()
+        self.szamjegyvalto()
+        self.ketto()
+
+    def huszonnyolc(self):
+        self.nyolc()
+        self.szamjegyvalto()
+        self.ketto()
+
+    def huszonkilenc(self):
+        self.kilenc()
+        self.szamjegyvalto()
+        self.ketto()
+
+    def harminc(self):
+        self.nulla()
+        self.szamjegyvalto()
+        self.harom()
+
+    def harmincegy(self):
+        self.egy()
+        self.szamjegyvalto()
+        self.harom()
+
+    def harmincketto(self):
+        self.ketto()
+        self.szamjegyvalto()
+        self.harom()
+
+    def harminncharom(self):
+        self.harom()
+        self.szamjegyvalto()
+        self.harom()
+
+    def harmincnegy(self):
+        self.negy()
+        self.szamjegyvalto()
+        self.harom()
+
+    def harmincot(self):
+        self.ot()
+        self.szamjegyvalto()
+        self.harom()
+
+    def harminchat(self):
+        self.hat()
+        self.szamjegyvalto()
+        self.harom()
+
+    def harminchet(self):
+        self.het()
+        self.szamjegyvalto()
+        self.harom()
+
+    def harmincnyolc(self):
+        self.nyolc()
+        self.szamjegyvalto()
+        self.harom()
+
+    def harminckilenc(self):
+        self.kilenc()
+        self.szamjegyvalto()
+        self.harom()
+
+    def negyven(self):
+        self.nulla()
+        self.szamjegyvalto()
+        self.negy()
+
+    def negyvenegy(self):
+        self.egy()
+        self.szamjegyvalto()
+        self.negy()
+
+    def negyvenketto(self):
+        self.ketto()
+        self.szamjegyvalto()
+        self.negy()
+
+    def negyvenharom(self):
+        self.harom()
+        self.szamjegyvalto()
+        self.harom()
+
+    def negyvennegy(self):
+        self.negy()
+        self.szamjegyvalto()
+        self.negy()
+
+    def negyvenot(self):
+        self.ot()
+        self.szamjegyvalto()
+        self.negy()
+
+    def negyvenhat(self):
+        self.hat()
+        self.szamjegyvalto()
+        self.negy()
+
+    def negyvenhet(self):
+        self.het()
+        self.szamjegyvalto()
+        self.negy()
+
+    def negyvennyolc(self):
+        self.nyolc()
+        self.szamjegyvalto()
+        self.negy()
+
+    def negyvenkilenc(self):
+        self.kilenc()
+        self.szamjegyvalto()
+        self.negy()
+
+    def otven(self):
+        self.nulla()
+        self.szamjegyvalto()
+        self.ot()
+
+    def otvenegy(self):
+        self.egy()
+        self.szamjegyvalto()
+        self.ot()
+
+    def otvenketto(self):
+        self.ketto()
+        self.szamjegyvalto()
+        self.ot()
+
+    def otvenharom(self):
+        self.harom()
+        self.szamjegyvalto()
+        self.ot()
+
+    def otvennegy(self):
+        self.negy()
+        self.szamjegyvalto()
+        self.ot()
+
+    def otvenot(self):
+        self.ot()
+        self.szamjegyvalto()
+        self.ot()
+
+    def otvenhat(self):
+        self.hat()
+        self.szamjegyvalto()
+        self.ot()
+
+    def otvenhet(self):
+        self.het()
+        self.szamjegyvalto()
+        self.ot()
+
+    def otvennyolc(self):
+        self.nyolc()
+        self.szamjegyvalto()
+        self.ot()
+
+    def otvenkilenc(self):
+        self.kilenc()
+        self.szamjegyvalto()
+        self.ot()
+
     def tizespoz(self):
         self.t1.penup()
         self.t1.left(180)

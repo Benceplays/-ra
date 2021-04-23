@@ -12,6 +12,56 @@ class Numbers3:
         self.percturtle.backward(275)
         self.percturtle.pendown()
 
+    def nulnul(self):
+        self.nulla()
+        self.szamjegyvalto()
+        self.nulla()
+
+    def nulegy(self):
+        self.egy()
+        self.szamjegyvalto()
+        self.nulla()
+
+    def nulketto(self):
+        self.ketto()
+        self.szamjegyvalto()
+        self.nulla()
+
+    def nulharom(self):
+        self.harom()
+        self.szamjegyvalto()
+        self.nulla()
+
+    def nulnegy(self):
+        self.negy()
+        self.szamjegyvalto()
+        self.nulla()
+
+    def nulot(self):
+        self.ot()
+        self.szamjegyvalto()
+        self.nulla()
+
+    def nulhat(self):
+        self.hat()
+        self.szamjegyvalto()
+        self.nulla()
+
+    def nulhet(self):
+        self.het()
+        self.szamjegyvalto()
+        self.nulla()
+
+    def nulnyolc(self):
+        self.nyolc()
+        self.szamjegyvalto()
+        self.nulla()
+
+    def nulkilenc(self):
+        self.kilenc()
+        self.szamjegyvalto()
+        self.nulla()
+
     def tiz(self):
         self.nulla()
         self.szamjegyvalto()

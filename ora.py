@@ -325,43 +325,43 @@ class Kattintgato:
         if self.clk.min() == 0:
             self.num2.clearer()
         if self.clk.min() == 0:
-            self.num2.nulla()
+            self.num2.nulnul()
         if self.clk.min() == 1:
             self.num2.clearer()
         if self.clk.min() == 1:
-            self.num2.egy()
+            self.num2.nulegy()
         if self.clk.min() == 2:
             self.num2.clearer()
         if self.clk.min() == 2:
-            self.num2.ketto()
+            self.num2.nulketto()
         if self.clk.min() == 3:
             self.num2.clearer()
         if self.clk.min() == 3:
-            self.num2.harom()
+            self.num2.nulharom()
         if self.clk.min() == 4:
             self.num2.clearer()
         if self.clk.min() == 4:
-            self.num2.negy()
+            self.num2.nulnegy()
         if self.clk.min() == 5:
             self.num2.clearer()
         if self.clk.min() == 5:
-            self.num2.ot()
+            self.num2.nulot()
         if self.clk.min() == 6:
             self.num2.clearer()
         if self.clk.min() == 6:
-            self.num2.hat()
+            self.num2.nulhat()
         if self.clk.min() == 7:
             self.num2.clearer()
         if self.clk.min() == 7:
-            self.num2.het()
+            self.num2.nulhet()
         if self.clk.min() == 8:
             self.num2.clearer()
         if self.clk.min() == 8:
-            self.num2.nyolc()
+            self.num2.nulnyolc()
         if self.clk.min() == 9:
             self.num2.clearer()
         if self.clk.min() == 9:
-            self.num2.kilenc()
+            self.num2.nulkilenc()
         if self.clk.min() == 10:
             self.num2.clearer()
         if self.clk.min() == 10:

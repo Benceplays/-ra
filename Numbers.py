@@ -2,8 +2,6 @@ from turtle import *
 from datetime import *
 from j_clock import *
 class Numbers:
-    scr = Screen()
-    clk = Clock(scr)
     t = Turtle()
 
 

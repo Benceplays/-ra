@@ -2,9 +2,7 @@ from turtle import *
 from datetime import *
 from j_clock import *
 class Numbers2:
-    scr = Screen()
-    clk = Clock(scr)
-    t1 = Turtle()
+    t1 : Turtle
 
 
     def szamjegyvalto(self):
@@ -1966,7 +1964,7 @@ class Numbers2:
         self.t1.left(45)
 
     def __init__(self):
-        self.t = Turtle()
+        self.t1 = Turtle()
+        self.t1.speed(0)
+        self.t1._delay(0)
 
-
-Numbers2()

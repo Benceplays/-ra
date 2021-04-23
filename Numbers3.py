@@ -2,9 +2,8 @@ from turtle import *
 from datetime import *
 from j_clock import *
 class Numbers3:
-    scr = Screen()
-    clk = Clock(scr)
     percturtle = Turtle()
+    percturtle : Turtle
 
 
     def szamjegyvalto(self):
@@ -2447,4 +2446,6 @@ class Numbers3:
         self.half7()
         self.reset()
 
-Numbers3()
+    def __init__(self):
+        self.percturtle.speed(0)
+        self.percturtle._delay(0)

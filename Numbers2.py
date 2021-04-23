@@ -264,7 +264,7 @@ class Numbers2:
     def tizespoz(self):
         self.t1.penup()
         self.t1.left(180)
-        self.t1.backward(590)
+        self.t1.backward(490)
         self.t1.left(270)
         self.t1.backward(110)
         self.t1.left(270)
